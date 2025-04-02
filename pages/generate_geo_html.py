@@ -125,7 +125,7 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="fr-col-12 fr-col-md-4">
+      <div class="not-prose fr-col-12 fr-col-md-4">
         <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
           <div class="fr-sidemenu__inner">
             <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>

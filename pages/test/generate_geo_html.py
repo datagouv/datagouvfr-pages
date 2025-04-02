@@ -118,7 +118,7 @@ left_menu = render_toc_ul(levels_to_inf_3)
 
 main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
-    <div class="fr-grid-row fr-grid-row--gutters">
+    <div class="not-prose fr-grid-row not-prose fr-grid-row--gutters">
       <div class="fr-col fr-col-12 fr-col-md-6 fr-col-offset-1">
         <h1 class="fr-display--sm">{}</h1>
       </div>
