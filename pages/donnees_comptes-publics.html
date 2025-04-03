@@ -23,18 +23,19 @@ content_type: html
 
                     <div class="fr-grid-row">
                         <div class="not-prose fr-col-12 fr-col-md-4">
-                            <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                                style="max-width:350px;">
-                                <div class="fr-sidemenu__inner">
-                                    <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
-                                        class="fr-sidemenu__btn" hidden="">
-                                        Dans cette rubrique
-                                    </button>
+                            <Sidemenu
+                                class="fr-col-12 fr-col-md-4"
+                                style="max-width: 350px;"
+                                button-text="Dans cette rubrique"
+                                :sticky-full-height="true"
+                            >
+                                <template #title>
                                     <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
                                         src="https://user-images.githubusercontent.com/72090652/199032798-c9b17525-3d4e-4aea-9c83-6de1db81648f.svg"
                                         alt="">
-                                    <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                        <ul class="fr-sidemenu__list">
+                                    <p class="mb-0 fr-sr-only-lg">Menu</p>
+                                </template>
+                                <ul class="fr-sidemenu__list">
                                             <li class="fr-sidemenu__item">
                                                 <a class="fr-sidemenu__link" href="#balances" target="_self">
                                                     1. Les balances comptables
@@ -83,11 +84,9 @@ content_type: html
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
-                            </nav>
+                            </Sidemenu>
                         </div>
-                        <div class="fr-col-12 fr-col-md-8 markdown">
+                        <div class="fr-col-12 fr-col-md-8">
                             <h2 id="balances">Les balances comptables</h2>
                             <p>La balance comptable est un document comptable qui reprend tous les comptes d’un
                                 organisme. Elle fait apparaître les soldes créditeurs et débiteurs sur la période de
@@ -97,11 +96,11 @@ content_type: html
                                 regroupant tous les totaux sur les soldes créditeurs et débiteurs.</p>
                             <p>Le Ministère de l'Economie et des Finances publie en open data les données des balances
                                 comptables de différentes structures administratives :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/donnees-de-comptabilite-generale-de-letat/">Données
-                                            de comptabilité générale de l'État</a> avec <a href="https://www.data.gouv.fr/fr/reuses/datavisualisation-des-comptes-de-letat/>une datavisualisation associée</a></li>
+                                            de comptabilité générale de l'État</a> avec <a href="https://www.data.gouv.fr/fr/reuses/datavisualisation-des-comptes-de-letat/">une datavisualisation associée</a></li>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/balances-comptables-des-regions-depuis-2010/">Balances
                                             comptables des régions depuis 2010</a></li>
@@ -144,7 +143,7 @@ content_type: html
                             <p>Les agrégats publiés sont ceux des budgets principaux et des budgets annexes des
                                 collectivités locales et de leurs établissements publics locaux (groupements à fiscalité
                                 propre, syndicats, caisses des écoles, caisses communales d'action sociale etc.).</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/agregats-comptables-des-collectivites-et-des-etablissements-publics-locaux-2017/">Agrégats
@@ -170,7 +169,7 @@ content_type: html
                                 budgets exécutés des communes, régions, départements et groupement à fiscalité propre.
                             </p>
                             <p>Les comptes individuels permettent d’analyser :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li>Les équilibres financiers fondamentaux : opérations de fonctionnement,
                                         opérations d’investissement, autofinancement, endettement.</li>
@@ -181,7 +180,7 @@ content_type: html
                             </div>
                             <p>Le Ministère de l'Economie et des Finances met à disposition en open data les données des
                                 comptes individuelles des différentes structures administratives :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/comptes-individuels-des-communes-fichier-global-a-compter-de-2000/">Comptes
@@ -210,7 +209,7 @@ content_type: html
                                     des finances et de la gestion publique locales (OFGL)</a> utiliser les données
                                 publiées par le Ministère de l'Economie et des Finances afin de proposer des comptes
                                 consolidés :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a href="https://www.data.gouv.fr/fr/datasets/comptes-des-regions-2012-2020/">Comptes
                                             des régions 2012-2021</a></li>
@@ -249,7 +248,7 @@ content_type: html
                                 critères physiques et financiers utilisés pour la répartition des fonds nationaux de
                                 péréquation et pour la répartition des dotations de l’État aux collectivités
                                 territoriales.</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales/">Critères
@@ -263,7 +262,7 @@ content_type: html
                                 entre les communes.</p>
                             <p>La DGCL met à disposition des donneés qui contient de nombreuses informations sur les
                                 intercommunalités :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/">Les
@@ -286,7 +285,7 @@ content_type: html
                             <p>Ces données concernent exclusivement les impositions primitives, c’est-à-dire qu’elles ne
                                 tiennent pas compte des impositions supplémentaires consécutives à des omissions ou
                                 insuffisances de l'imposition initiale.</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-3/">Impôts
@@ -309,7 +308,7 @@ content_type: html
                             <p>Les acheteurs publics disposent de plusieurs modes de publication. Afin d'apporter une
                                 vision complète des données essentielles de la commande publique, Etalab publie une
                                 consolidation des données publiées sur différentes plateformes :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides/">Fichiers
@@ -317,7 +316,7 @@ content_type: html
                                 </ul>
                             </div>
                             <p>Il est également possible de consulter les données publiées via le PES Marché :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-de-la-commande-publique-transmises-via-le-pes-marche/">Données
@@ -334,7 +333,7 @@ content_type: html
                                     href="https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-des-finances-et-de-la-relance/">ministère
                                     de l'Economie et des Finances</a> met disposition les données sous-jacentes au
                                 projet de loi de finances et de ses annexes :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2022-plf-2022-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap/">Projet
@@ -364,7 +363,7 @@ content_type: html
                             </div>
                             <p>Par la suite, l'Assemblée Nationale publie les amendements déposés sur le projet de loi
                                 proposé :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/amendements-deposes-a-lassemblee-nationale-lies-aux-plf-et-plfss-2018-2019-2020/">Amendements
@@ -373,7 +372,7 @@ content_type: html
                                 </ul>
                             </div>
                             <p>Enfin, le Sénat publie en open data :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/projets-de-loi-de-finances-redaction-de-1ere-lecture-au-senat-resultant-des-travaux-de-lassemblee-nationale/">Projets
@@ -387,7 +386,7 @@ content_type: html
                             <h2 id="rapport">Les rapports relatifs aux comptes publics</h2>
                             <p>La <a href="https://www.data.gouv.fr/fr/organizations/cour-des-comptes/">Cour des
                                     comptes</a> publie différents rapports relatifs aux comptes publics :</p>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li>Budget de l'État</li>
                                     <ul>
@@ -465,3 +464,7 @@ content_type: html
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
