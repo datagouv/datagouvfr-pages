@@ -61,32 +61,32 @@ content_type: html
             <h2 class="fr-mt-4w">(Re)visionnez les webinaires passés qui vous intéressent</h2>
             <p>Tous nos webinaires sont enregistrés. Vous pouvez les regarder à tout moment.</p>
 
-            <div class="not-prose fr-accordions-group">
-                <section class="fr-accordion">
-                    <h3 class="fr-accordion__title !mb-0">
-                        <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-114">Démos
-                            publiques</button>
-                    </h3>
-                    <div class="fr-collapse" id="accordion-114">
-                        <div class="fr-callout fr-fi-information-line">
-                            <p class="fr-callout__text">Présentation des dernières évolutions et des développements
-                                à venir de la plateforme data.gouv.fr, suivie d'une discussion ouverte.
-                            </p>
-                        </div>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/2e23c3c57e7ab65de6bbf01c04282d8d9922516b-1685013952627">Démo
-                                        publique du 25/05/2023</a></li>
-                                <li><a
-                                        href="https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/2e23c3c57e7ab65de6bbf01c04282d8d9922516b-1701867602913">Démo
-                                        publique du 06/12/2023</a></li>
-                                <li><a href="https://tube.numerique.gouv.fr/w/9rvhdGpXmsPpCJa5CRwDZr">Démo publique du
-                                        20/11/2024</a></li>
-                            </ul>
-                        </div>
+            <AccordionGroup class="not-prose">
+                <Accordion
+                    title="Démos publiques"
+                >
+                    <div class="fr-callout fr-fi-information-line">
+                        <p class="fr-callout__text">Présentation des dernières évolutions et des développements
+                            à venir de la plateforme data.gouv.fr, suivie d'une discussion ouverte.
+                        </p>
                     </div>
-                </section>
+                    <ul class="list-disc my-5 pl-6">
+                        <li>
+                            <a href="https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/2e23c3c57e7ab65de6bbf01c04282d8d9922516b-1685013952627">
+                                Démo publique du 25/05/2023</a>
+                            </li>
+                        <li>
+                            <a href="https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/2e23c3c57e7ab65de6bbf01c04282d8d9922516b-1701867602913">
+                                Démo publique du 06/12/2023
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tube.numerique.gouv.fr/w/9rvhdGpXmsPpCJa5CRwDZr">
+                                Démo publique du 20/11/2024
+                            </a>
+                        </li>
+                    </ul>
+                </Accordion>
                 <section class="fr-accordion">
                     <h3 class="fr-accordion__title !mb-0">
                         <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-115">Foires
