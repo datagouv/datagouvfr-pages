@@ -23,52 +23,49 @@ content_type: html
                     </div>
 
                     <div class="fr-grid-row">
-                        <div class="not-prose fr-col-12 fr-col-md-4">
-                            <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                                style="max-width:350px;">
-                                <div class="fr-sidemenu__inner">
-                                    <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
-                                        class="fr-sidemenu__btn" hidden="">
-                                        Dans cette rubrique
-                                    </button>
-                                    <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                        src="https://user-images.githubusercontent.com/72090652/199032815-2e1e5463-e8aa-4320-b44d-3b5b9029852e.svg"
-                                        alt="">
-                                    <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                        <ul class="fr-sidemenu__list">
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#repertoires" target="_self">
-                                                    1. Données de référence et répertoires
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#commande" target="_self">
-                                                    2. Données de la commande publique
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#subventions" target="_self">
-                                                    3. Données relatives aux subventions aux associations
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
-                                                    4. Réutilisations de données
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#hackaton" target="_self">
-                                                    5. Le hackathon "A l'asso des données"
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="fr-col-12 fr-col-md-8 markdown">
+                        <Sidemenu
+                            class="fr-col-12 fr-col-md-4"
+                            style="max-width: 350px;"
+                            button-text="Dans cette rubrique"
+                            :sticky-full-height="true"
+                        >
+                            <template #title>
+                                <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                                    src="https://user-images.githubusercontent.com/72090652/199032815-2e1e5463-e8aa-4320-b44d-3b5b9029852e.svg"
+                                    alt="">
+                                <p class="mb-0 fr-sr-only-lg">Menu</p>
+                            </template>
+                            <ul class="fr-sidemenu__list">
+                                <li class="fr-sidemenu__item">
+                                    <a class="fr-sidemenu__link" href="#repertoires" target="_self">
+                                        1. Données de référence et répertoires
+                                    </a>
+                                </li>
+                                <li class="fr-sidemenu__item">
+                                    <a class="fr-sidemenu__link" href="#commande" target="_self">
+                                        2. Données de la commande publique
+                                    </a>
+                                </li>
+                                <li class="fr-sidemenu__item">
+                                    <a class="fr-sidemenu__link" href="#subventions" target="_self">
+                                        3. Données relatives aux subventions aux associations
+                                    </a>
+                                </li>
+                                <li class="fr-sidemenu__item">
+                                    <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
+                                        4. Réutilisations de données
+                                    </a>
+                                </li>
+                                <li class="fr-sidemenu__item">
+                                    <a class="fr-sidemenu__link" href="#hackaton" target="_self">
+                                        5. Le hackathon "A l'asso des données"
+                                    </a>
+                                </li>
+                            </ul>
+                        </Sidemenu>
+                        <div class="fr-col-12 fr-col-md-8">
                             <h2 id="repertoires">Données de référence et répertoires</h2>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/">Répertoire
@@ -86,7 +83,7 @@ content_type: html
                             <h3>Par le <a
                                     href="https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/">Ministère
                                     de l'Intérieur</a></h3>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/">Associations
@@ -98,7 +95,7 @@ content_type: html
                             </div>
                             <h3>Par <a href="https://www.data.gouv.fr/fr/organizations/premier-ministre/">les services
                                     du Premier Ministre</a></h3>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a href="https://www.data.gouv.fr/fr/datasets/associations-joafe/">Associations
                                             - Journal Officiel (JOAFE)</a></li>
@@ -110,7 +107,7 @@ content_type: html
                                 </ul>
                             </div>
                             <h3>Voir aussi :</h3>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/ideo-associations-de-personnes-handicapees/">Le
@@ -121,7 +118,7 @@ content_type: html
                             </div>
 
                             <h2 id="commande">Données de la commande publique</h2>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides/">Fichiers
@@ -133,7 +130,7 @@ content_type: html
 
                             <h2 id="subventions">Données relatives aux subventions aux associations</h2>
                             <h3>Par le Ministère de l'Economie et des Finances</h3>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2022-plf-2022-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/">Projet
@@ -175,7 +172,7 @@ content_type: html
                             <h3>Par le <a
                                     href="https://www.data.gouv.fr/fr/organizations/ministere-de-la-culture-et-de-la-communication/">Ministère
                                     de la Culture</a></h3>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-conventions-de-subvention-5/">Données
@@ -184,7 +181,7 @@ content_type: html
                             </div>
                             <h3>Par les collectivités territoriales</h3>
                             <h4>Conseils départementaux</h4>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/subventions-aux-associations-versees-par-le-departement-de-loire-atlantique-2/">Subventions
@@ -220,7 +217,7 @@ content_type: html
                                 </ul>
                             </div>
                             <h4>Conseils régionaux</h4>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li>Subventions
                                         versées <a
@@ -232,7 +229,7 @@ content_type: html
                                 </ul>
                             </div>
                             <h4>Communes</h4>
-                            <div class="markdown">
+                            <div>
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/liste-des-associations-parisiennes-prs/">Liste
