@@ -10,34 +10,36 @@ description: Ceci est la description
 content_type: html
 ---
 <div style="display:flex;">
-    <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
-        <div class="fr-sidemenu__inner">
-            <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
-            <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                <div class="fr-sidemenu__title">Titre de rubrique</div>
-                <ul class="fr-sidemenu__list">
-                    <li class="fr-sidemenu__item fr-sidemenu__item--active">
-                        <a class="fr-sidemenu__link" href="#" target="_self" aria-current="page">Accès direct</a>
-                    </li>
-                    <li class="fr-sidemenu__item">
-                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
-                    </li>
-                <li class="fr-sidemenu__item">
-                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
-                    </li>
-                    <li class="fr-sidemenu__item">
-                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
-                    </li>
-                    <li class="fr-sidemenu__item">
-                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
-                    </li>
-                    <li class="fr-sidemenu__item">
-                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+	<Sidemenu
+		class="fr-col-12 fr-col-md-4"
+		style="max-width: 350px;"
+		button-text="Dans cette rubrique"
+		:sticky-full-height="true"
+	>
+		<template #title>
+				Titre de rubrique
+		</template>
+			<ul class="fr-sidemenu__list">
+				<li class="fr-sidemenu__item fr-sidemenu__item--active">
+						<a class="fr-sidemenu__link" href="#" target="_self" aria-current="page">Accès direct</a>
+				</li>
+				<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+				</li>
+				<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+				</li>
+				<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+				</li>
+				<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+				</li>
+				<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+				</li>
+		</ul>
+	</Sidemenu>
     <div>
         <p><i>Avant de nous contacter, nous vous invitons à consulter la <a href="doc.data.gouv.fr/">documentation technique de data.gouv.fr</a>
                 ainsi que les guides d'Etalab : </i></p>
