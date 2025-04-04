@@ -38,62 +38,53 @@ content_type: html
 
     <h2>Découvrez les dernières nouveautés</h2>
 
-    <section class="fr-accordion not-prose">
-        <h3 class="fr-accordion__title !mb-0">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-97">Avril à Octobre 2023
-                2023</button>
-        </h3>
-        <div class="fr-collapse" id="accordion-97">
+    <AccordionGroup class="not-prose">
+        <Accordion
+            title="Avril à Octobre 2023"
+        >
             <div class="fr-callout fr-fi-information-line">
                 <p class="fr-callout__title">En bref</p>
                 <p class="fr-callout__text">
-                <div class="markdown">
-                    <ul>
+                    <ul class="list-disc my-5 pl-6">
                         <li>Refonte de la page organisation</li>
                         <li>Nouveaux inventaires de données (culture, agriculture et alimentation, éducation)</li>
                         <li>Refonte de l’application données de valeurs foncières</li>
                         <li>Amélioration de la pertinence et de l'affichage des métriques sur la plateforme</li>
                         <li>Nouveaux guides notamment un guide sur l'utilisation des données du cadastre</li>
                     </ul>
-                </div>
                 </p>
             </div>
-        </div>
-        <h3 class="fr-accordion__title !mb-0">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-98">Janvier, Février, Mars
-                2023</button>
-        </h3>
-        <div class="fr-collapse" id="accordion-98">
+        </Accordion>
+        <Accordion
+            title="Janvier, Février, Mars 2023"
+        >
             <div class="fr-callout fr-fi-information-line">
                 <p class="fr-callout__title">En bref</p>
                 <p class="fr-callout__text">
-                <div class="markdown">
-                    <ul>
+                    <ul class="list-disc my-5 pl-6">
                         <li>Refonte de la page jeux de données</li>
                         <li>Refonte de la page réutilisation</li>
                         <li>Amélioration du moissonage DCAT</li>
                         <li>Travaux sur l'amélioration de la qualité des dates</li>
                     </ul>
-                </div>
                 </p>
             </div>
             <h3>Refonte de la page jeux de données</h3>
-            <div class="markdown">
-                <p>A la lumière des retours collectés, nous avons entrepris une refonte des pages de jeux de données,
-                    nouvellement pensées pour faciliter la navigation et l’accès rapide aux informations importantes.
-                    Trouvez en un coup d’oeil description, fichiers, réutilisations, discussions, métadonnées ou encore
-                    score de qualité des métadonnées.
-                    Cette nouvelle page intègre aussi la prévisualisation, disponible pour tous les jeux de données
-                    tabulaires. Au niveau des fichiers, vous pouvez ainsi visualiser les cinq premières lignes du
-                    fichier (avec la possibilité de trier) et accéder directement à une exploration plus poussée des
-                    données sur l’application explore.data.gouv.fr </p>
-            </div>
+            <p>A la lumière des retours collectés, nous avons entrepris une refonte des pages de jeux de données,
+                nouvellement pensées pour faciliter la navigation et l’accès rapide aux informations importantes.
+                Trouvez en un coup d’oeil description, fichiers, réutilisations, discussions, métadonnées ou encore
+                score de qualité des métadonnées.
+                Cette nouvelle page intègre aussi la prévisualisation, disponible pour tous les jeux de données
+                tabulaires. Au niveau des fichiers, vous pouvez ainsi visualiser les cinq premières lignes du
+                fichier (avec la possibilité de trier) et accéder directement à une exploration plus poussée des
+                données sur l’application explore.data.gouv.fr </p>
             <h3>Refonte de la page réutilisation</h3>
-            <div class="markdown">
-                <p>Les pages de réutilisation ont également été repensées pour faciliter la navigation et inciter au
-                    référencement.</p>
+            <p>Les pages de réutilisation ont également été repensées pour faciliter la navigation et inciter au
+                référencement.</p>
             </div>
-        </div>
+        </Accordion>
+    </AccordionGroup>
+    <section class="fr-accordion not-prose">
         <h3 class="fr-accordion__title !mb-0">
             <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-99">Novembre, Décembre
                 2022</button>
