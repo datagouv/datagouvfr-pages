@@ -156,12 +156,6 @@ soup = BeautifulSoup(main_content_template, 'html.parser')
 main_content_template = r.sub(r'\1\1', soup.prettify())
 content_resulting.append(main_content_template)
 
-script_hack = """<script type="text/javascript">
-    document.querySelector('.container.py-lg').classList.remove('container')
-</script>
-"""
-content_resulting.append(script_hack)
-
 html = '\n'.join(content_resulting)
 with open('geo.html', 'w') as input_file:
     input_file.write(html)
