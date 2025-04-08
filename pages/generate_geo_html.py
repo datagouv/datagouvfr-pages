@@ -125,16 +125,22 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="not-prose fr-col-12 fr-col-md-4">
-        <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
-          <div class="fr-sidemenu__inner">
-            <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
-            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="{}" alt="">
-            <div class="fr-collapse" id="fr-sidemenu-wrapper">{}</div>
-          </div>
-        </nav>
-      </div>
-      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+      <Sidemenu
+        class="fr-col-12 fr-col-md-4"
+        button-text="Dans cette rubrique"
+        :sticky-full-height="true"
+      >
+        <template #title>
+          <img
+            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+            src="{}"
+            alt=""
+          >
+          <p class="mb-0 fr-sr-only-lg">Menu</p>
+        </template>
+        {}
+      </Sidemenu>
+      <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
   </div>
 </section>
@@ -155,7 +161,7 @@ main_content_template = """<section class="section-blue section-main">
       </div>
       <div class="fr-col-12 fr-col-md-4">
       </div>
-      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+      <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
   </div>
 </section>

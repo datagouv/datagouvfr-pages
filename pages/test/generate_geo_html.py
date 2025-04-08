@@ -118,7 +118,7 @@ left_menu = render_toc_ul(levels_to_inf_3)
 
 main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
-    <div class="not-prose fr-grid-row not-prose fr-grid-row--gutters">
+    <div class="not-prose fr-grid-row fr-grid-row--gutters">
       <div class="fr-col fr-col-12 fr-col-md-6 fr-col-offset-1">
         <h1 class="fr-display--sm">{}</h1>
       </div>
@@ -131,15 +131,22 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="fr-col-12 fr-col-md-4">
-        <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
-          <div class="fr-sidemenu__inner">
-            <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
-            <div class="fr-collapse" id="fr-sidemenu-wrapper">{}</div>
-          </div>
-        </nav>
-      </div>
-      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+      <Sidemenu
+        class="fr-col-12 fr-col-md-4"
+        button-text="Dans cette rubrique"
+        :sticky-full-height="true"
+      >
+        <template #title>
+          <img
+            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+            src="{}"
+            alt=""
+          >
+          <p class="mb-0 fr-sr-only-lg">Menu</p>
+        </template>
+        {}
+      </Sidemenu>
+      <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
   </div>
 </section>
