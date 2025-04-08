@@ -126,7 +126,7 @@ main_content_template = """<section class="section-blue section-main">
         </div>
       </div>
       <Sidemenu
-        class="fr-col-12 fr-col-md-4"
+        class="fr-col-12 fr-col-md-4 not-prose"
         button-text="Dans cette rubrique"
         :sticky-full-height="true"
       >
@@ -159,7 +159,7 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="fr-col-12 fr-col-md-4">
+      <div class="fr-col-12 fr-col-md-4 not-prose">
       </div>
       <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
