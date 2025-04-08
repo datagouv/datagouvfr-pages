@@ -127,8 +127,7 @@ main_content_template = """<section class="section-blue section-main">
       </div>
     </div>
     <div class="fr-highlight fr-my-6w">
-      <p>{}
-      </p>
+      {}
     </div>
     <div class="fr-grid-row">
       <Sidemenu
