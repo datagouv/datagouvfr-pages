@@ -120,7 +120,7 @@ main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
     <div class="fr-grid-row fr-grid-row--gutters">
       <div class="fr-col-12 fr-col-md-6 fr-col-offset-1">
-        <h1 class="fr-display--sm">{}</h1>
+        <h1>{}</h1>
       </div>
       <div class="fr-col-12 fr-col-md-4">
         <img class="fr-responsive-img" src="{}"></src>
