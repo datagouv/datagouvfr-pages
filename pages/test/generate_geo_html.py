@@ -118,19 +118,19 @@ left_menu = render_toc_ul(levels_to_inf_3)
 
 main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
-    <div class="fr-grid-row fr-grid-row--gutters">
+    <div class="fr-grid-row fr-grid-row--gutters items-center">
       <div class="fr-col-12 fr-col-md-6 fr-col-offset-1">
-        <h1>{}</h1>
+        <h1 class="m-0">{}</h1>
       </div>
       <div class="fr-col-12 fr-col-md-4">
         <img class="fr-responsive-img" src="{}"></src>
       </div>
-      <div class="fr-col-12">
-        <div class="fr-highlight fr-my-6w">
-          <p>{}
-          </p>
-        </div>
-      </div>
+    </div>
+    <div class="fr-highlight fr-my-6w">
+      <p>{}
+      </p>
+    </div>
+    <div class="fr-grid-row">
       <Sidemenu
         class="fr-col-12 fr-col-md-4 not-prose"
         button-text="Dans cette rubrique"
