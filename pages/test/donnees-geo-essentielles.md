@@ -1,12 +1,12 @@
-# Données limites administratives
+## Données limites administratives
 
-## **Données communales**
+### **Données communales**
 
 Le Code Officiel Géographique (COG). C’est une donnée pivot qui permet de rattacher les données à d’autres jeux de données, à des données géographiques ou de faire des calculs à des niveaux administratifs issus d’une combinaison de communes.
 
 - [Code officiel géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) avec les données sous forme JSON dans le cadre de <a href="https://github.com/etalab/decoupage-administratif#via-des-urls" target="_blank">l’API Découpage Administratif</a> (**SPD**)
 
-### *Données IGN*
+#### *Données IGN*
 
 - [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/): données communales à partir de 2017 jusqu’à nos jours. Les versions récentes intègrent les EPCI
 - [Geofla](https://www.data.gouv.fr/fr/datasets/geofla-r/): données communales, cantonales et départementales en 1997, 2002 puis régulièrement de 2010 à 2016 régulièrement 
@@ -19,18 +19,18 @@ Ces données font partie du SPD via le RGE (Référentiel à Grande Échelle)
 
 Pour ne pas avoir à gérer les DOM/TOM du fait de l’éloignement, lorsqu'on produit des cartes France entière, il existe une [version de données avec les Contours des communes de France simplifié, avec régions et département d'outre-mer rapprochés](https://www.data.gouv.fr/fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/)
 
-### *Données OpenStreetMap*
+#### *Données OpenStreetMap*
 
 Pour les données communales, celle-ci ont tracées depuis un fond raster communal de la direction générale des Finances publiques (DGFiP) comme cet article <a href="http://prev.openstreetmap.fr/36680-communes" target="_blank">"Achèvement du tracé collaboratif des limites communales françaises dans OpenStreetMap"</a> le retrace.
 
 - [Extractions de OpenStreetMap France](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/) sur [data.gouv.fr](http://data.gouv.fr)
 
-## **Données postales**
+### **Données postales**
 
 - [Base officielle des codes postaux](https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/) de La Poste. Comme la donnée n'est qu'à date courante, il est possible d'avoir <a href="http://files.opendatarchives.fr/datanova.laposte.fr/archives/laposte_hexasmal/" target="_blank">les mêmes données archivées plus anciennes sur OpenDatarchives</a>
 - Fond de carte des codes postaux [https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/](https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/)
 
-## **Données dérivées ou dérivables des données communales générales**
+### **Données dérivées ou dérivables des données communales générales**
 
 Généralement des zonages sont dérivés de zonage communaux
 
@@ -91,11 +91,11 @@ Généralement des zonages sont dérivés de zonage communaux
     - <a href="https://www.insee.fr/fr/statistiques/5650720" target="_blank">Population en 2018</a>
 - [1526 variables regroupées en 19 classes sur les 49461 IRIS de France](https://www.data.gouv.fr/fr/datasets/1526-variables-regroupees-en-19-classes-sur-les-49461-iris-de-france/)
 
-# **Transports/mobilités**
+## **Transports/mobilités**
 
 - Le Point d'Accès National (PAN) aux données ouvertes de transport <a href="https://transport.data.gouv.fr/" target="_blank">transport.data.gouv.fr</a>. Il concerne tous les types de transports ainsi que certains aspects de mobilité comme le covoiturage.
 
-## Voiture
+### Voiture
 
 - <a href="https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage/" target="_blank">Aires de covoiturage en France</a>
 - <a href="https://transport.data.gouv.fr/datasets?type=low-emission-zones" target="_blank">Zones à faibles émissions</a>
@@ -110,25 +110,25 @@ Généralement des zonages sont dérivés de zonage communaux
 - [Fichier consolidé des Bornes de Recharge pour Véhicules Électriques](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)
 - [Radars automatiques](https://www.data.gouv.fr/fr/datasets/radars-automatiques/)
 
-## Transport ferroviaire
+### Transport ferroviaire
 
 - [Liste des gares](https://www.data.gouv.fr/fr/datasets/liste-des-gares/)
 - [Gares ferroviaires de tous types, exploitées ou non](https://www.data.gouv.fr/fr/datasets/gares-ferroviaires-de-tous-types-exploitees-ou-non/)
 - [Positions géographiques des stations du réseau RATP](https://www.data.gouv.fr/fr/datasets/positions-geographiques-des-stations-du-reseau-ratp-ratp/) (voir aussi <a href="https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf-data-generalisee/" target="_blank">ce jeu de données</a>).
 
-## Transport aérien
+### Transport aérien
 
 - [Aéroports français](https://www.data.gouv.fr/fr/datasets/aeroports-francais-coordonnees-geographiques/)
 - [Données d'espace aérien de la base aéronautique du SIA](https://www.data.gouv.fr/fr/datasets/donnees-despace-aerien-de-la-base-aeronautique-du-sia/)
 
-## Mobilité
+### Mobilité
 
 - <a href="https://www.insee.fr/fr/information/2383370" target="_blank">INSEE Base des flux de mobilité</a>
     - <a href="https://www.insee.fr/fr/information/2383337" target="_blank">Mobilités professionnelles</a> : déplacements domicile-travail
     - <a href="https://www.insee.fr/fr/information/2383343" target="_blank">Mobilités scolaires</a> : déplacements domicile-études
     - <a href="https://www.insee.fr/fr/information/2383331" target="_blank">Migrations résidentielles</a> : commune de résidence / commune de résidence antérieure
 
-# **Annuaires/référentiels**
+## **Annuaires/référentiels**
 
 - [Service-Public.fr](https://www.data.gouv.fr/fr/datasets/service-public-fr-annuaire-de-l-administration-base-de-donnees-locales/)
 - [Base Sirene des entreprises et de leurs établissements (SIREN, SIRET)](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) dont versions géolocalisées ci-dessous
@@ -142,7 +142,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - [Référentiel à grande échelle (RGE)](https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/) (**SPD**) Le RGE est constitué des composantes orthophotographique, topographique et adresse, parcellaire et altimétrique.
 - [Services Publics Plus](https://www.data.gouv.fr/fr/datasets/referentiel-structure-de-la-plateforme-services-publics-plus-de-la-ditp/) (référentiel structure)
 
-# Risques
+## Risques
 
 - [Connaître le potentiel radon de ma commune](https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/)
 - <a href="https://www.georisques.gouv.fr/donnees/bases-de-donnees" target="_blank">Géorisques</a>,
@@ -150,7 +150,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - InfoTerre dont les <a href="https://infoterre.brgm.fr/page/geoservices-ogc" target="_blank">flux OGC</a>
 - [Base nationale de Gestion Assistée des Procédures Administratives relatives aux Risques (GASPAR)](https://www.data.gouv.fr/fr/datasets/base-nationale-de-gestion-assistee-des-procedures-administratives-relatives-aux-risques-gaspar/) (attention, CSV à joindre à des informations communales par le code INSEE, pas d’information géographique directe).
 
-# Environnement (géologie, eau, autres)
+## Environnement (géologie, eau, autres)
 
 - [Cartes géologiques départementales à 1/50 000 (BD Charm)](https://www.data.gouv.fr/fr/datasets/cartes-geologiques-departementales-a-1-50-000-bd-charm-50/)
 - InfoTerre dont les <a href="https://infoterre.brgm.fr/page/geoservices-ogc" target="_blank">flux OGC</a>
@@ -167,7 +167,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - [Pesticides dans les eaux souterraines](https://www.data.gouv.fr/fr/datasets/pesticides-dans-les-eaux-souterraines/)
 - [Carroyage DFCI](https://www.data.gouv.fr/fr/datasets/carroyage-dfci-2-km/) (Défense des Forêts Contre les Incendies) 2 km
 
-# Urbanisme (cadastre, données vente, logement)
+## Urbanisme (cadastre, données vente, logement)
 
 - [Plan cadastral informatisé](https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/) (**SPD**)
 - [Base de donnée nationale des bâtiments](https://www.data.gouv.fr/fr/datasets/base-de-donnee-nationale-des-batiments-version-0-6/)
@@ -186,7 +186,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - [Corine Land Cover](https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/)
 - [Fiches signalétiques des points géodésiques et des repères de nivellement](https://www.data.gouv.fr/fr/datasets/fiches-signaletiques-des-points-geodesiques-et-des-reperes-de-nivellement/). Voir aussi <a href="https://geoservices.ign.fr/services-web-experts-geodesie#3390" target="_blank">les services de l’IGN</a>.
 
-# Télécommunications (antennes, réseaux)
+## Télécommunications (antennes, réseaux)
 
 - [Arcep couverture mobile](https://www.data.gouv.fr/fr/datasets/mon-reseau-mobile/)
 - [Données ADSL et fibre](https://www.data.gouv.fr/fr/datasets/ma-connexion-internet/)
@@ -194,7 +194,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - <a href="https://data.anfr.fr/anfr/visualisation/information/?id=dd11fac6-4531-4a27-9c8c-a3a9e4ec2107" target="_blank">Données sur les réseaux mobiles</a>
 - [Données sur les installations radioélectriques de plus de 5 watts](https://www.data.gouv.fr/fr/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/)
 
-# Éducation
+## Éducation
 
 - Académies
     - [Contours géographiques des académies](https://www.data.gouv.fr/fr/datasets/contours-geographiques-des-academies/)
@@ -202,7 +202,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - Emplacement écoles
     - [Adresse et géolocalisation des établissements d'enseignement du premier et second degrés](https://www.data.gouv.fr/fr/datasets/adresse-et-geolocalisation-des-etablissements-denseignement-du-premier-et-second-degres-1/)
 
-# Élections
+## Élections
 
 - [Contours des circonscriptions des législatives](https://www.data.gouv.fr/fr/datasets/countours-des-circonscriptions-des-legislatives-nd/)
 - [Carte des circonscriptions législatives françaises (2012+)](https://www.data.gouv.fr/fr/datasets/carte-des-circonscriptions-legislatives-francaises-2012-nd/)
@@ -210,7 +210,7 @@ Généralement des zonages sont dérivés de zonage communaux
 - [Contours détaillés des circonscriptions des législatives](https://www.data.gouv.fr/fr/datasets/contours-detailles-des-circonscriptions-des-legislatives/)
 - [Panneaux d'affichage électoral](https://www.data.gouv.fr/fr/datasets/panneaux-daffichage-electoral/)
 
-# Police, sécurité publique, sécurité civile, justice
+## Police, sécurité publique, sécurité civile, justice
 
 Dispatcher entre droits/justice et sécurité
 
@@ -222,7 +222,7 @@ Dispatcher entre droits/justice et sécurité
 - [Découpage des zones de sécurité prioritaires (ZSP)](https://www.data.gouv.fr/fr/datasets/decoupage-des-zones-de-securite-prioritaires-zsp-1/)
 - [Base de données des barreaux d'avocats de France](https://www.data.gouv.fr/fr/datasets/base-de-donnees-des-barreaux-davocats-de-france/)
 
-# Santé
+## Santé
 
 - [Don du sang](https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/)
 - [FINESS Extraction du Fichier des établissements](https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/)
@@ -231,14 +231,14 @@ Dispatcher entre droits/justice et sécurité
 - [Géo'DAE - Base Nationale des Défibrillateurs](https://www.data.gouv.fr/fr/datasets/geodae-base-nationale-des-defibrillateurs/)
 - [Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/) (API sans archivage). Voir [ce jeu de données](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/#resource-6c6484fe-7024-452a-a156-b2effbaad598-title) pour une version avec historique et coordonnées.
 
-# Agriculture
+## Agriculture
 
 - [Registre parcellaire graphique (RPG)](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/) : contours des parcelles et îlots culturaux et leur groupe de cultures majoritaire (**SPD**)
 - [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/)
 - [Agriculture biologique 2008-2011 - nombre d'opérateurs engagés en agriculture biologique](https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-nombre-d-operateurs-engages-en-agriculture-biologique-30378896/) (information rapportable à une région ou un département)
 - [Délimitation Parcellaire des AOC Viticoles de l'INAO](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/)
 
-# Patrimoine/culture/tourisme/sports
+## Patrimoine/culture/tourisme/sports
 
 - [Immeubles protégés au titre des Monuments Historiques](https://www.data.gouv.fr/fr/datasets/immeubles-proteges-au-titre-des-monuments-historiques-2/)
 - [Liste et localisation des Musées de France](https://www.data.gouv.fr/fr/datasets/liste-et-localisation-des-musees-de-france/)
@@ -251,7 +251,7 @@ Dispatcher entre droits/justice et sécurité
 - [Localisation des sites de fouille archéologiques de l'Inrap](https://www.data.gouv.fr/fr/datasets/localisation-des-sites-de-fouille-archeologiques-de-l-inrap-576210/)
 - [Données géocodées issues du recensement des licences et clubs auprès des fédérations sportives agréées par le ministère chargé des sports](https://www.data.gouv.fr/fr/datasets/donnees-geocodees-issues-du-recensement-des-licences-et-clubs-aupres-des-federations-sportives-agreees-par-le-ministere-charge-des-sports/)
 
-# POIs
+## POIs
 
 - [Recensement des équipements sportifs, espaces et sites de pratiques](https://www.data.gouv.fr/fr/datasets/recensement-des-equipements-sportifs-espaces-et-sites-de-pratiques/) (soit à géocoder soit pour avoir les informations à la commune)
 - [Base permanente des équipements](https://www.data.gouv.fr/fr/datasets/base-permanente-des-equipements-1/)
@@ -259,9 +259,9 @@ Dispatcher entre droits/justice et sécurité
 - [Adresses des débits de tabac](https://www.data.gouv.fr/fr/datasets/adresses-des-debits-de-tabac/)
 - [Liste des structures France services](https://www.data.gouv.fr/fr/datasets/62503e25bc0f6370f4a651ce/)
 
-# Fonds de plan
+## Fonds de plan
 
-## Niveau France
+### Niveau France
 
 - [Données OpenStreetMap intégrales de France Métropolitaine](https://www.data.gouv.fr/fr/datasets/donnees-openstreetmap-integrales-de-france-metropolitaine/)
 - [Fonds de carte IGN France et régions](https://www.data.gouv.fr/fr/datasets/fonds-de-carte-ign-france-et-regions-571459/) (rare cas où la donnée est en fait des PDF à réutiliser sous forme papier)
@@ -269,15 +269,15 @@ Dispatcher entre droits/justice et sécurité
 - [BD ORTHO®](https://www.data.gouv.fr/fr/datasets/bd-ortho-r/) (images aériennes raster)
 - [Métadonnée des photos aériennes anciennes de l'IGN](https://www.data.gouv.fr/fr/datasets/metadonnee-des-photos-aeriennes-anciennes-de-lign/)
 
-## Niveau Europe
+### Niveau Europe
 
 - [EuroGlobalMap - données topographiques au 1/1 000 000 couvrant 45 pays et territoires en Europe](https://www.data.gouv.fr/fr/datasets/euroglobalmap-donnees-topographiques-au-1-1-000-000-couvrant-45-pays-et-territoires-en-europe/)
 
-## Niveau Monde
+### Niveau Monde
 
 - [COPERNICUS - Satellite Sentinel 1A](https://www.data.gouv.fr/fr/datasets/copernicus-satellite-sentinel-1a/)
 
-## Données Monde génériques (hors [data.gouv.fr](http://data.gouv.fr/))
+### Données Monde génériques (hors [data.gouv.fr](http://data.gouv.fr/))
 
 - <a href="https://www.naturalearthdata.com/downloads/" target="_blank">Natural Earth Data</a>(pays, principales villes, rivières, lacs, fond de plan raster altimétrie/bathymétrie)
 - <a href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/" target="_blank">Données bathymétriques</a>

@@ -118,11 +118,11 @@ left_menu = render_toc_ul(levels_to_inf_3)
 
 main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
-    <div class="not-prose fr-grid-row fr-grid-row--gutters">
-      <div class="fr-col fr-col-12 fr-col-md-6 fr-col-offset-1">
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col-12 fr-col-md-6 fr-col-offset-1">
         <h1 class="fr-display--sm">{}</h1>
       </div>
-      <div class="fr-col fr-col-12 fr-col-md-4">
+      <div class="fr-col-12 fr-col-md-4">
         <img class="fr-responsive-img" src="{}"></src>
       </div>
       <div class="fr-col-12">
@@ -152,8 +152,6 @@ main_content_template = """<section class="section-blue section-main">
 </section>
 """.format(title, illustration_url, basic_description, left_menu, html_tree)
 
-# <h1 class="fr-h1"> pour surcharger
-main_content_template = main_content_template.replace("<h1 ", '<h1 class="fr-h1"')
 soup = BeautifulSoup(main_content_template, 'html.parser')
 main_content_template = r.sub(r'\1\1', soup.prettify())
 content_resulting.append(main_content_template)
