@@ -1,3 +1,7 @@
+---
+title: A quoi sert l'open data ?
+---
+
 # A quoi sert l'open data ?
 > Les données ouvertes (ou open data) constituent une ressource essentielle pour de nombreux acteurs. 
 Ce sont des données numériques produites par les acteurs publics et privés, diffusées de manière structurée selon une licence ouverte garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
