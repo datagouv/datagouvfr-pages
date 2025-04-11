@@ -97,7 +97,7 @@ basic_description = """<p>
             data.gouv.fr
           </a>
           . Celle-ci n'est pas exhaustive et est
-          <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md" target="_blank">
+          <a href="https://github.com/datagouv/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md" target="_blank">
             ouverte aux contributions
           </a>
           .

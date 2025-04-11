@@ -94,7 +94,7 @@ illustration_url = "https://user-images.githubusercontent.com/72090652/201092205
 basic_description = """<p>
           Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur <a href="http://data.gouv.fr/">data.gouv.fr</a>.
           Celle-ci n'est pas exhaustive et est
-          <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-geo.md" target="_blank">
+          <a href="https://github.com/datagouv/datagouvfr-pages/blob/master/pages/donnees-geo.md" target="_blank">
             ouverte aux contributions
           </a>
           .
