@@ -9,7 +9,7 @@ description: Page inventaire des données de forte valeur
 content_type: html
 ---
 
-    <section class="section-blue section-main">
+<section class="section-blue section-main">
         <div class="fr-container">
             <h1>Les données de forte valeur</h1>
             <div class="fr-highlight fr-my-6w">
@@ -24,23 +24,17 @@ content_type: html
             </div>
 
             <div class="fr-grid-row">
-                <Sidemenu
-                    class="fr-col-12 fr-col-md-4 not-prose"
-                    button-text="Dans cette rubrique"
-                    :sticky-full-height="true"
-                >
+                <Sidemenu class="fr-col-12 fr-col-md-4 not-prose" button-text="Dans cette rubrique"
+                    :sticky-full-height="true">
                     <template #title>
-                        <img 
-                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                        <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
                             src="https://raw.githubusercontent.com/thanhhale7/images/fdcde0a293b8764fac859ad80335407bb345062d/Group%202694.svg"
-                            alt=""
-                        >
+                            alt="">
                         <p class="mb-0 fr-sr-only-lg">Menu</p>
                     </template>
                     <ul class="fr-sidemenu__list">
                         <li class="fr-sidemenu__item">
-                            <a class="fr-sidemenu__link" href="#donnees-geospatiales"
-                                target="_self">
+                            <a class="fr-sidemenu__link" href="#donnees-geospatiales" target="_self">
                                 Données géospatiales
                             </a>
                             <ul class="fr-sidemenu__list">
@@ -50,40 +44,35 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#unites-administratives" target="_self">
+                                            <a class="fr-sidemenu__link" href="#unites-administratives" target="_self">
                                                 Unités administratives
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#parcelles-cadastrales" target="_self">
+                                            <a class="fr-sidemenu__link" href="#parcelles-cadastrales" target="_self">
                                                 Parcelles cadastrales
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#adresses"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#adresses" target="_self">
                                                 Adresses
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#batiments"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#batiments" target="_self">
                                                 Bâtiments
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#denominations-geographiques" target="_self">
+                                            <a class="fr-sidemenu__link" href="#denominations-geographiques"
+                                                target="_self">
                                                 Dénominations géographiques
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations1"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations1" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
@@ -100,110 +89,93 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#sols"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#sols" target="_self">
                                                 Sols
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#usage-des-sols"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#usage-des-sols" target="_self">
                                                 Usage des sols
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#occupation-des-terres" target="_self">
+                                            <a class="fr-sidemenu__link" href="#occupation-des-terres" target="_self">
                                                 Occupation des terres
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#geologie"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#geologie" target="_self">
                                                 Géologie
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#hydrographie"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#hydrographie" target="_self">
                                                 Hydrographie
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#domaine-de-leau"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#domaine-de-leau" target="_self">
                                                 Domaine de de l'eau
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#domaine-des-emissions" target="_self">
+                                            <a class="fr-sidemenu__link" href="#domaine-des-emissions" target="_self">
                                                 Domaine des émissions
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#domaine-du-bruit"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#domaine-du-bruit" target="_self">
                                                 Domaine du bruit
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#protection"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#protection" target="_self">
                                                 Domaine de la protection de la nature et de la
                                                 biodiversité
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#habitats"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#habitats" target="_self">
                                                 Habitats et biotopes
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#repartition-des-especes" target="_self">
+                                            <a class="fr-sidemenu__link" href="#repartition-des-especes" target="_self">
                                                 Répartition des espèces
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#sites-proteges"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#sites-proteges" target="_self">
                                                 Sites protégés
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#zones-risque-naturel" target="_self">
+                                            <a class="fr-sidemenu__link" href="#zones-risque-naturel" target="_self">
                                                 Zones à risque naturel
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#zones-de-gestion"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#zones-de-gestion" target="_self">
                                                 Zones de gestion, de restriction ou de
                                                 réglementation et unités de déclaration
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#ortho-imagerie"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#ortho-imagerie" target="_self">
                                                 Ortho-imagerie
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations2"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations2" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="fr-sidemenu__item">
-                            <a class="fr-sidemenu__link" href="#donnees-meteorologiques"
-                                target="_self">
+                            <a class="fr-sidemenu__link" href="#donnees-meteorologiques" target="_self">
                                 Données météorologiques
                             </a>
                             <ul class="fr-sidemenu__list">
@@ -213,50 +185,43 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#observations-mesurees" target="_self">
+                                            <a class="fr-sidemenu__link" href="#observations-mesurees" target="_self">
                                                 Données d'observation mesurées par les stations
                                                 météorologiques
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#donnees-climatiques"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#donnees-climatiques" target="_self">
                                                 Données climatiques : les observations validées
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#modeles-prevision"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#modeles-prevision" target="_self">
                                                 Modèles de données de prévision météorologique
                                                 numérique
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#donnees-radar"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#donnees-radar" target="_self">
                                                 Données radar
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#alertes-meteorologiques" target="_self">
+                                            <a class="fr-sidemenu__link" href="#alertes-meteorologiques" target="_self">
                                                 Alertes météorologiques
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations3"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations3" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="fr-sidemenu__item">
-                            <a class="fr-sidemenu__link" href="#donnees-statistiques"
-                                target="_self">
+                            <a class="fr-sidemenu__link" href="#donnees-statistiques" target="_self">
                                 Données statistiques
                             </a>
                             <ul class="fr-sidemenu__list">
@@ -266,124 +231,104 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#population"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#population" target="_self">
                                                 Population
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#fecondite"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#fecondite" target="_self">
                                                 Fécondité
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#mortalite"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#mortalite" target="_self">
                                                 Mortalité
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#inegalites"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#inegalites" target="_self">
                                                 Inégalités
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#pauvrete"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#pauvrete" target="_self">
                                                 Pauvreté
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#emploi"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#emploi" target="_self">
                                                 Emploi
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#chomage"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#chomage" target="_self">
                                                 Chômage
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#main-oeuvre-potentielle" target="_self">
+                                            <a class="fr-sidemenu__link" href="#main-oeuvre-potentielle" target="_self">
                                                 Main d'oeuvre potentielle
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#agregats"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#agregats" target="_self">
                                                 Comptes nationaux - Principaux agrégats du PIB
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#menages"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#menages" target="_self">
                                                 Comptes nationaux - indicateurs clés sur les ménages
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#indicateurs-entreprises" target="_self">
+                                            <a class="fr-sidemenu__link" href="#indicateurs-entreprises" target="_self">
                                                 Comptes nationaux - indicateurs clés sur les
                                                 entreprises
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#dette"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#dette" target="_self">
                                                 Dette publique brute consolidée
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#depenses-recettes"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#depenses-recettes" target="_self">
                                                 Dépenses et recettes des administrations publiques
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#production-industrielle" target="_self">
+                                            <a class="fr-sidemenu__link" href="#production-industrielle" target="_self">
                                                 Production industrielle
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#volume-ventes"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#volume-ventes" target="_self">
                                                 Volume des ventes par activité
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#prix-industrie"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#prix-industrie" target="_self">
                                                 Ventilations de l'indice des prix de production de
                                                 l'industrie par activité
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#prix-consommation"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#prix-consommation" target="_self">
                                                 Indices des prix à la consommation harmonisés
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#flux-touristiques"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#flux-touristiques" target="_self">
                                                 Flux touristiques en Europe
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#comptes-environnement" target="_self">
+                                            <a class="fr-sidemenu__link" href="#comptes-environnement" target="_self">
                                                 Comptes et statistiques de l'environnement
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#commerce-international" target="_self">
+                                            <a class="fr-sidemenu__link" href="#commerce-international" target="_self">
                                                 Statistiques sur le commerce international de biens
                                                 dans l'UE : exportations et importations ventilées à
                                                 la fois par partenaire, par produit et par flux
@@ -392,8 +337,7 @@ content_type: html
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations4"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations4" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
@@ -410,15 +354,14 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#informations-entreprises" target="_self">
+                                            <a class="fr-sidemenu__link" href="#informations-entreprises"
+                                                target="_self">
                                                 Informations de base sur l'entreprise : Attributs
                                                 clés
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#documents-comptes-entreprises"
+                                            <a class="fr-sidemenu__link" href="#documents-comptes-entreprises"
                                                 target="_self">
                                                 Documents et comptes de l'entreprise
                                             </a>
@@ -426,8 +369,7 @@ content_type: html
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations5"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations5" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
@@ -444,22 +386,19 @@ content_type: html
                                     </a>
                                     <ul class="fr-sidemenu__list">
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link"
-                                                href="#reseaux-de-transport" target="_self">
+                                            <a class="fr-sidemenu__link" href="#reseaux-de-transport" target="_self">
                                                 Réseaux de transport
                                             </a>
                                         </li>
                                         <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#voies-navigables"
-                                                target="_self">
+                                            <a class="fr-sidemenu__link" href="#voies-navigables" target="_self">
                                                 Voies navigables intérieures
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="#reutilisations6"
-                                        target="_self">
+                                    <a class="fr-sidemenu__link" href="#reutilisations6" target="_self">
                                         Réutilisations de données
                                     </a>
                                 </li>
@@ -473,41 +412,48 @@ content_type: html
                     <h3 id="donnees1">Données</h3>
                     <h4 id="unites-administratives">Unités administratives</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/">Code
-                                Officiel Géographique (COG)</a>
+                        <li>Code Officiel Géographique (COG), <a
+                                href="https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/">en
+                                téléchargement</a> ou par <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-metadonnees/">API</a>
                         </li>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-metadonnees/">API
-                                Métadonnées (COG)</a>
-                        </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/delimitations-maritimes/">Délimitations
+                                maritimes</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/espaces-maritimes-de-souverainete-ou-de-juridiction/">Espaces
+                                maritimes de souveraineté ou de juridiction</a></li>
                     </ul>
                     <h4 id="parcelles-cadastrales">Parcelles cadastrales</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/cadastre/">Cadastre</a>
+                        <li>Cadastre, <a href="https://www.data.gouv.fr/fr/datasets/cadastre/">en téléchargement</a> ou
+                            <a href="https://www.data.gouv.fr/fr/dataservices/api-cadastre/">par API</a>
                         </li>
                     </ul>
                     <h4 id="adresses">Adresses</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">Base
-                                Adresse Nationale (BAN)</a>
-                        </li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/">API
-                                Base Adresse Nationale (BAN)</a>
-                        </li>
+                        <li>Base Adresse Nationale (BAN), <a
+                                href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">en
+                                téléchargement</a> ou <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-adresse-base-adresse-nationale-ban/">par
+                                API</a></li>
                     </ul>
                     <h4 id="batiments">Bâtiments</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/referentiel-national-des-batiments/">Référentiel
-                                National des Bâtiments (RNB)</a>
+                        <li>Référentiel National des Bâtiments (RNB), <a
+                                href="https://www.data.gouv.fr/fr/datasets/referentiel-national-des-batiments/">en
+                                téléchargement</a> ou <a href="https://www.data.gouv.fr/fr/dataservices/api-rnb/">par
+                                API</a>
                         </li>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-rnb/">API RNB</a>
-                        </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/parcellaire-express-pci/">Parcellaire Express
+                                (PCI)</a></li>
                     </ul>
                     <h4 id="denominations-geographiques">Dénominations géographiques</h4>
                     <ul>
                         <li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/">BD Topo</a>
                         </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/toponymes-marins-et-cotiers-a-lechelle-mondiale-1/">Toponymes
+                                marins et côtiers à l'échelle mondiale</a></li>
                     </ul>
                     <h3 id="reutilisations1">Réutilisations de données</h3>
                     <p>A partir de ces données géospatiales, des solutions ont été conçues pour permettre de :
@@ -542,10 +488,6 @@ content_type: html
                     <h4 id="sols">Sols</h4>
                     <ul>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-sur-la-qualite-des-sols-en-milieu-urbain-bdsolu/">Base
-                                de données sur la qualité des sols en milieu urbain (BDSolU)</a>
-                        </li>
-                        <li><a
                                 href="https://www.data.gouv.fr/fr/datasets/information-de-ladministration-concernant-une-pollution-suspectee-ou-averee-ex-basol/">Information
                                 de l’administration concernant une pollution suspectée ou avérée
                                 (ex-BASOL)</a>
@@ -554,6 +496,8 @@ content_type: html
                                 href="https://www.data.gouv.fr/fr/datasets/carte-des-anciens-sites-industriels-et-activites-de-services-casias/">Carte
                                 des Anciens Sites Industriels et Activités de Services (CASIAS)</a>
                         </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/zonage-en-potentiel-radon/">Zonage en
+                                potentiel radon</a></li>
                         <li><a
                                 href="https://www.data.gouv.fr/fr/datasets/obligations-reglementaires-liees-aux-parcelles-cadastrales-secteurs-dinformation-sur-les-sols-sis/">Obligations
                                 réglementaires liées aux parcelles cadastrales : Secteurs d’Information sur
@@ -565,7 +509,7 @@ content_type: html
                                 Publique (SUP)</a>
                         </li>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/etat-des-lieux-de-la-connaissance-du-regolithe-autochtone-au-millionieme/">Etat
+                                href="https://www.data.gouv.fr/fr/datasets/etat-des-lieux-de-la-connaissance-du-regolithe-allochtone-au-millionieme/">Etat
                                 des lieux de la connaissance du régolithe allochtone au millionième</a>
                         </li>
                     </ul>
@@ -586,44 +530,147 @@ content_type: html
                         </li>
                         <li><a
                                 href="https://www.data.gouv.fr/fr/datasets/cartes-geologiques-vectorisees-et-harmonisees-a-1-50-000-du-brgm/">Cartes
-                                géologiques vectorisées et harmonisées à 1/50 000 du BRGM</a>
+                                géologiques vectorisées et harmonisées à 1/50 000</a>
                         </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-dunes-du-plateau-continental-francais-1/">Répartition
+                                des dunes du Plateau continental français</a></li>
                     </ul>
                     <h4 id="hydrographie">Hydrographie</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/organizations/systeme-d-information-sur-l-eau/?tag=hydrographie#/datasets">Hydrographie</a>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/bd-carthage-r/">BD Cartage</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/bd-topage-r/">BD Topage</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/hydrographie-eth/">Hydrographie - ETH</a></li>
+                        <li>Obstacles à l'écoulement - <a
+                                href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-metropole/">Métropole</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-guadeloupe/">Guadeloupe</a>,
+                            <a href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-guyane/">Guyane</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-martinique/">Martinique</a>,
+                            <a href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-mayotte/">Mayotte</a>,
+                            <a href="https://www.data.gouv.fr/fr/datasets/obstacles-a-lecoulement-reunion/">La
+                                Réunion</a>
                         </li>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/bss-eau-points-deau/">BSS
-                                EAU - Points d'eau</a>
-                        </li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/bss-ouvrages-de-la-banque-du-sous-sol-brgm/">BSS
-                                - Ouvrages de la
-                                Banque du Sous-Sol (BRGM)</a>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/vigilance-crues-vic/">Vigilance crues -
+                                VIC</a></li>
+                        <li>Segment de classement de continuité écologique - <a
+                                href="https://www.data.gouv.fr/fr/datasets/segment-de-classement-de-continuite-ecologique-metropole/">Métropole</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/segment-de-classement-de-continuite-ecologique-guadeloupe/">Guadeloupe</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/segment-de-classement-de-continuite-ecologique-martinique/">Martinique</a>
                         </li>
                     </ul>
                     <h4 id="domaine-de-leau">Domaine de l'eau</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune/">Résultats
-                                du contrôle sanitaire de l'eau distribuée commune par commune</a>
-                        </li>
+                        <li>Résultats du contrôle sanitaire de l'eau distribuée commune par commune, <a
+                                href="https://www.data.gouv.fr/fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/hubeau-qualite-de-leau-potable/">par
+                                API</a></li>
                         <li><a
                                 href="https://www.data.gouv.fr/fr/datasets/donnees-de-rapportage-de-la-saison-balneaire-1/">Données
                                 de rapportage
                                 de la saison balnéaire</a>
                         </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/sites-et-stations-hydrometriques-hyd/">Sites
+                                et stations hydrométriques</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/donnees-aux-sites-hydrometriques/">Données aux
+                                sites hydrométriques</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/donnees-aux-stations-hydrometriques/">Données
+                                aux stations hydrométriques</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/aires-dalimentation-de-captages-france-entiere-1/">Aires
+                                d'Alimentation de Captages - France entière</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/bassins-dce/">Bassins DCE</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/circonscriptions-administratives-de-bassin-2022/">Circonscriptions
+                                administratives de bassin 2022</a></li>
+                        </li>
+                        <li>Entités hydrogéologiques - <a
+                                href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-metropole-1/">Métropole</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-guadeloupe-1/">Guadeloupe</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-guyane-1/">Guyane</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-martinique-1/">Martinique</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-mayotte-1/">Mayotte</a>,
+                            <a href="https://www.data.gouv.fr/fr/datasets/entites-hydrogeologiques-reunion-1/">La
+                                Réunion</a>
+                        </li>
+                        <li>Hydroécorégions de <a
+                                href="https://www.data.gouv.fr/fr/datasets/hydroecoregions-de-niveau-1-her-1/">niveau
+                                1</a> et de <a
+                                href="https://www.data.gouv.fr/fr/datasets/hydroecoregions-de-niveau-2-her-2/">niveau
+                                2</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/hydrogeologie-saq/">Hydrogéologie - SAQ</a>
+                        </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/masses-deau-mdo/">Masses d'eau - MDO</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/stations-de-traitement-des-eaux-usees-france-entiere-1/">Stations
+                                de traitement des eaux usées - France entière</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/ouvrages-de-depollution-odp-systraitementeauxusees/">Ouvrages
+                                de dépollution - ODP - SysTraitementEauxUsees</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateurs-sur-les-boues-urbaines-des-stations-de-traitement-des-eaux-usees/">Indicateurs
+                                sur les boues urbaines des stations de traitement des eaux usées</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/suivi-annuel-des-indicateurs-de-fonctionnement-des-ouvrages-dassainissement-urbain-au-sens-de-la-deru/">Suivi
+                                annuel des indicateurs de fonctionnement des ouvrages d'assainissement urbain au sens de
+                                la DERU</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/stations-de-mesure-de-la-qualite-des-eaux-superficielles-continentales-stq-france-entiere-1/">Stations
+                                de mesure de la qualité des eaux superficielles continentales - France entière</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/points-de-prelevements-associes-aux-stations-de-mesure-de-la-qualite-des-eaux-superficielles-continentales-stq-france-entiere/">Points
+                                de prélèvements associés aux stations de la mesure de la qualité des eaux superficielles
+                                continentales (STQ) - France entière</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/segments-du-domaine-public-fluvial-dpf-metropole/">Segments
+                                du Domaine Public Fluvial (DPF) - Métropole</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/territoires-de-competence-crues-tcc-metropole-1/">Territoires
+                                de Compétence Crues (TCC) - Métropole</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/territoires-de-vigilance-crues-metropole/">Territoires</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/troncons-de-vigilance-crues-metropole/">tronçons</a>
+                            de vigilance crues - Métropole</li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/zonages-de-gestion-de-la-qualite-des-ressources-zgr/">Zonages
+                                de gestion de la qualité des ressources (ZGR)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/zonages-techniques-et-reglementaires-du-domaine-de-leau-zon/">Zonages
+                                techniques et réglementaires du domaine de l'eau - ZON</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/zones-de-regulations-pour-lenvironnement-zrpe/">Zones
+                                de régulations pour l'environnement (ZRPE)</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/zones-de-repartition-des-eaux-zre-metropole/">Zones
+                                de répartition des eaux (ZRE) - Métropole</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/zones-sensibles-france-entiere/">Zones
+                                sensibles - France entière</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/zones-vulnerables-metropole/">Zones
+                                vulnérables - Métropole</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/contextes-piscicoles-metropole/">Contextes
+                                piscicoles - Métropole</a></li>
                     </ul>
                     <h4 id="domaine-des-emissions">Domaine des émissions</h4>
                     <ul>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-demission-des-etablissements-relevant-du-reglement-e-prtr-et-des-installations-relevant-du-chapitre-iii-de-la-directive-ied-lcp-rapportage-2022/">Installations
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-temps-reel-de-mesure-des-concentrations-de-polluants-atmospheriques-reglementes-1/">Données
+                                « temps réel » de mesure des concentrations de polluants atmosphériques réglementés</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/installations-classees-pour-la-protection-de-lenvironnement-icpe-france-metropolitaine-et-drom-3/">Installations
                                 classées pour la protection de l'environnement (ICPE) - France
                                 métropolitaine et DROM</a>
                         </li>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/installations-classees-pour-la-protection-de-lenvironnement-icpe-france-metropolitaine-et-drom-3/">Données
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-demission-des-etablissements-relevant-du-reglement-e-prtr-et-des-installations-relevant-du-chapitre-iii-de-la-directive-ied-lcp-rapportage-2022/">Données
                                 d'émission
                                 des établissements relevant du règlement E-PRTR et des installations
                                 relevant du chapitre III de la directive IED (LCP) - Rapportage 2022</a>
@@ -636,24 +683,24 @@ content_type: html
                     </ul>
                     <h4 id="domaine-du-bruit">Domaine du bruit</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-ferroviaire-concernes-par-la-cartographie-du-bruit-en-france-rapportage-2015-3/">Axes
-                                principaux du réseau ferroviaire concernés par la cartographie du bruit en
-                                France - Rapportage 2015</a>
+                        <li>Axes
+                            principaux du réseau ferroviaire concernés par la cartographie du bruit en France -
+                            Rapportage <a
+                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-ferroviaire-concernes-par-la-cartographie-du-bruit-en-france-rapportage-2005-3/">2005</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-ferroviaire-concernes-par-la-cartographie-du-bruit-en-france-rapportage-2010-3/">2010</a>
                         </li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-routier-concernes-par-la-cartographie-du-bruit-rapportage-2015-3/">Axes
-                                principaux du réseau routier concernés par la cartographie du bruit -
-                                Rapportage 2015</a>
+                        <li>Axes principaux du réseau routier concernés par la cartographie du bruit - Rapportage <a
+                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-routier-concernes-par-la-cartographie-du-bruit-rapportage-2005-3/">2005</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/axes-principaux-du-reseau-routier-concernes-par-la-cartographie-du-bruit-rapportage-2010-3/">2010</a>
                         </li>
                     </ul>
                     <h4 id="protection">Domaine de la protection de la nature et de la biodiversité</h4>
                     <ul>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-exotiques-envahissantes-dans-le-cadre-du-rapportage-eee-en-2019-eee-2019/">Répartition
-                                des espèces exotiques envahissantes dans le cadre du rapportage EEE en
-                                2019</a>
-                        </li>
+                                href="https://www.data.gouv.fr/fr/datasets/mesures-compensatoires-prescrites-des-atteintes-a-la-biodiversite-france-entiere/">Mesures
+                                compensatoires prescrites des atteintes à la biodiversité - France entière</a></li>
                         <li>Répartition
                             des espèces rapportées dans le cadre de la Directive Oiseaux <a
                                 href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-rapportees-dans-le-cadre-de-la-directive-oiseaux-en-2013-do-2013/">en
@@ -671,6 +718,21 @@ content_type: html
                                 href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-rapportees-sous-la-directive-habitats-faune-flore-en-2018-dhff-2018/">en
                                 2018 (DHFF 2018)</a>
                         </li>
+                        <li>Répartition
+                            des habitats rapportés sous la Directive Habitats Faune Flore <a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-habitats-rapportes-sous-la-directive-habitats-faune-flore-en-2013-dhff-2013/"></a>en
+                            2013 (DHFF 2013)</a> et <a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-habitats-rapportes-sous-la-directive-habitats-faune-flore-en-2018-dhff-2018/">en
+                                2018</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-exotiques-envahissantes-dans-le-cadre-du-rapportage-eee-en-2019-eee-2019/">Répartition
+                                des espèces exotiques envahissantes dans le cadre du rapportage EEE en
+                                2019</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/sites-dimportance-communautaire-designes-par-la-france/">Sites
+                                d'importance communautaire désignés par la France</a></li>
                         <li>Sites
                             désignés dans le cadre du rapportage CDDA <a
                                 href="https://www.data.gouv.fr/fr/datasets/sites-designes-dans-le-cadre-du-rapportage-cdda-en-metropole/">en
@@ -678,6 +740,9 @@ content_type: html
                                 href="https://www.data.gouv.fr/fr/datasets/sites-designes-dans-le-cadre-du-rapportage-cdda-en-outre-mer/">en
                                 Outre-Mer</a>
                         </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/zones-de-protection-speciale-designes-par-la-france/">Zones
+                                de protection spéciale désignés par la France</a></li>
                     </ul>
                     <h4 id="habitats">Habitats et biotopes</h4>
                     <ul>
@@ -692,11 +757,6 @@ content_type: html
                     </ul>
                     <h4 id="repartition-des-especes">Répartition des espèces</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-exotiques-envahissantes-dans-le-cadre-du-rapportage-eee-en-2019-eee-2019/">Répartition
-                                des espèces exotiques envahissantes dans le cadre du rapportage EEE en
-                                2019</a>
-                        </li>
                         <li>Répartition
                             des espèces rapportées dans le cadre de la Directive Oiseaux <a
                                 href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-rapportees-dans-le-cadre-de-la-directive-oiseaux-en-2013-do-2013/">en
@@ -713,6 +773,11 @@ content_type: html
                                 2013)</a> et <a
                                 href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-rapportees-sous-la-directive-habitats-faune-flore-en-2018-dhff-2018/">en
                                 2018 (DHFF 2018)</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-especes-exotiques-envahissantes-dans-le-cadre-du-rapportage-eee-en-2019-eee-2019/">Répartition
+                                des espèces exotiques envahissantes dans le cadre du rapportage EEE en
+                                2019</a>
                         </li>
                     </ul>
                     <h4 id="sites-proteges">Sites protégés</h4>
@@ -732,31 +797,44 @@ content_type: html
                                 retraits et gonflements des argiles en France métropolitaine (hors ville de
                                 Paris)</a>
                         </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/plan-de-prevention-des-risques-naturels-ou-technologiques-pprn-pprt-pour-la-france-metropolitaine-et-les-drom-com-1/">Plan
+                                de prévention des risques naturels ou technologiques (PPRN / PPRT) pour la France
+                                métropolitaine et les DROM-COM</a></li>
                         <li>Territoire
                             à risque d’inondation (TRI) du SIG Directive inondation - rapportage 2020 - <a
                                 href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-france-metropolitaine-rapportage-2020-241/">France
                                 métropolitaine</a> ; <a
                                 href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-guadeloupe-rapportage-2020-3/">Guadeloupe</a>
                             ; <a
-                                href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-guadeloupe-rapportage-2020-3/">Guyane</a>
+                                href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-guyane-rapportage-2020-3/">Guyane</a>
                             ; <a
                                 href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-martinique-rapportage-2020-3/">Martinique</a>
                             ; <a
-                                href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-guyane-rapportage-2020-3/">Mayotte</a>
+                                href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-mayotte-rapportage-2020-181/">Mayotte</a>
                             ; <a
                                 href="https://www.data.gouv.fr/fr/datasets/territoire-a-risque-dinondation-tri-du-sig-directive-inondation-reunion-rapportage-2020-3/">Réunion</a>.
-                        </li>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/zonage-en-potentiel-radon/">Zonage
-                                en potentiel radon</a>
                         </li>
                     </ul>
                     <h4 id="zones-de-gestion">Zones de gestion, de restriction ou de réglementation et unités de
                         déclaration</h4>
                     <ul>
-                        <li><a href="https://demo.data.gouv.fr/fr/datasets/bd-foret-r/">BD Forêt</a>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/bd-foret-r/">BD Forêt</a>
                         </li>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/">BD TOPO</a>
-                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/limite-de-la-redevance-darcheologie-preventive/">Limite
+                                de la redevance d'archéologie préventive</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/limite-des-affaires-maritimes-1/">Limite des
+                                affaires maritimes</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/limite-transversale-de-la-mer-1/">Limite
+                                transversale de la mer</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/limites-relatives-aux-usages-de-peche/">Limites
+                                relatives aux usages de pêche</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/limite-de-salure-des-eaux-1/">Limite de salure
+                                des eaux</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/planification-maritime/">Planification
+                                maritime</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/zones-dexercices/">Zones d'exercices</a></li>
                     </ul>
                     <h4 id="ortho-imagerie">Ortho-imagerie</h4>
                     <ul>
@@ -764,65 +842,174 @@ content_type: html
                         </li>
                     </ul>
                     <h3 id="reutilisations2">Réutilisations de données</h3>
-                    <p><i>Réutilisations à venir</i></p>
+                    <p>A partir de ces données sur l'observation de la terre et l'environnement, des solutions ont été
+                        conçues pour permettre de :
+                    </p>
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/mon-diagnostic-artificialisation/">Aider les
+                                collectivités territoriales à analyser et maîtriser la consommation d'espaces et
+                                l'artificialisation des sols de leur territoire</a> ;</li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/votre-eau-du-robinet-est-elle-radioactive-decouvrez-le-grace-a-notre-moteur-de-recherche/">Analyser
+                                la qualité de l'eau</a> ;</li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/plateforme-de-prevision-de-la-qualite-des-eaux-de-baignade-en-temps-reel/">Faire
+                                des prévisions sur la qualité des eaux de baignade en temps réel</a> ;</li>
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/beegis-bee-geographic-information-system/">Estimer
+                                les ressources florales autour des ruches</a> ;</li>
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/nos-villes-vertes/">Connaître le patrimoine
+                                arboré des communes.</a></li>
+                    </ul>
+                    <p>D'autres usages ont été développés à partir de ces données. Il est possible d'en
+                        découvrir davantage <a href="https://www.data.gouv.fr/fr/reuses/"><b>en parcourant les
+                                réutilisations référencées sur data.gouv.fr</b></a>.</p>
 
                     <h2 id="donnees-meteorologiques">Données météorologiques</h2>
                     <h3 id="donnees3">Données</h3>
                     <h4 id="observations-mesurees">Données d'observation mesurées par les stations
                         météorologiques</h4>
                     <ul>
-                        <li>Données changement climatique - SIM
-                            (<a href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-quotidienne/">quotidienne</a>,
-                            <a href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-decadaire/">décadaire</a>,
-                            <a href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-mensuelle/">mensuelle</a>)
+                        <li>Données climatologiques de base - 6 minutes, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-6-minutes/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-dobservation/">par API</a>
                         </li>
-                        <li>
-                            <a href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-lsh-longues-series-homogeneisees/">
-                            Données changement climatique - LSH (Longues Séries Homogénéisées)</a>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-6-minutes-stations-complementaires/">Données
+                                climatologiques de base - 6 minutes - stations complémentaires</a></li>
+                        <li>Données climatologiques de base - horaires, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/">par
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-dobservation/">par API</a>
                         </li>
-                        <li>
-                            <a href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sqr-series-quotidiennes-de-reference/">
-                            Données changement climatique - SQR (Séries Quotidiennes de Référence)</a>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires-stations-complementaires/">Données
+                                climatologiques de base - horaires - stations complémentaires</a></li>
+                        <li>Données climatologiques de base - quotidiennes, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-quotidiennes/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-dobservation/">par API</a>
                         </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-quotidiennes-stations-complementaires/">Données
+                                climatologiques de base - quotidiennes - stations complémentaires</a></li>
+                        <li>Données climatologiques de base - décadaires, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-decadaires/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-package-observations/">par API</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-decadaires-stations-complementaires/">Données
+                                climatologiques de base - décadaires - stations complémentaires</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-decadaires-agro-stations-complementaires/">Données
+                                climatologiques de base - décadaires agro - stations complémentaires</a></li>
+                        <li>Données climatologiques de base - mensuelles, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-mensuelles/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-dobservation/">par API</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-mensuelles-stations-complementaires/">Données
+                                climatologiques de base - mensuelles - stations complémentaires</a></li>
                     </ul>
                     <h4 id="donnees-climatiques">Données climatiques : les observations validées</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-6-minutes/">Données
-                                climatologiques de base - 6 minutes</a></li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/">Données
-                                climatologiques de base - horaires</a></li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-quotidiennes/">Données
-                                climatologiques de base - quotidiennes</a></li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-decadaires/">Données
-                                climatologiques de base - décadaires</a></li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-mensuelles/">Données
-                                climatologiques de base - mensuelles</a></li>
+                        <li>Données changement climatique - LSH (Longues Séries Homogénéisées), <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-lsh-longues-series-homogeneisees/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-climatologiques/">par API</a>
+                        </li>
+                        <li>Données changement climatique - SIM quotidienne, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-quotidienne/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-climatologiques/">par API</a>
+                        </li>
+                        <li>Données changement climatique - SIM décadaire, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-decadaire/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-climatologiques/">par API</a>
+                        </li>
+                        <li>Données changement climatique - SIM mensuelle, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sim-mensuelle/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-climatologiques/">par API</a>
+                        </li>
+                        <li>Données changement climatique - SQR (Séries Quotidiennes de Référence), <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-changement-climatique-sqr-series-quotidiennes-de-reference/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-climatologiques/">par API</a>
+                        </li>
                     </ul>
                     <h4 id="modeles-prevision">Modèles de données de prévision météorologique numérique</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-modele-arome/">API
-                                Modèle AROME</a></li>
+                        <li>Paquets Arome - Résolution <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-resolution-0-01deg/">0,01°</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-resolution-0-025deg/">0,025°</a>
+                        </li>
+                        <li>Paquets Arome Outre-Mer - Résolution 0,025° - <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-outre-mer-antilles-resolution-0-025deg/">Antilles</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-outre-mer-guyane-resolution-0-025deg-1/">Guyane</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-outre-mer-nouvelle-caledonie-resolution-0-025deg/">Nouvelle-Calédonie</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-outre-mer-polynesie-resolution-0-025deg/">Polynésie</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arome-outre-mer-reunion-mayotte-resolution-0-025deg/">Réunion-Mayotte</a>
+                        </li>
+                        <li>Paquets Arpège - Résolution 0,1°, <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arpege-resolution-0-1deg/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-modele-arpege/">par API</a></li>
+                        <li>Paquets Arpège - Résolution 0,25°, <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-arpege-resolution-0-25deg/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-modele-arpege/">par API</a></li>
+                        <li>Données PNT - rétention 14 jours, <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-pnt-retention-14-jours/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-modele-arome/">par API</a></li>
+                        <li>Modèle de prévision d'ensemble ARPEGE, <a
+                                href="https://www.data.gouv.fr/fr/datasets/modele-de-prevision-densemble-arpege/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-champs-statistiques-de-la-prevision-densemble-arpege/">par
+                                API</a></li>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/dataservices/api-modele-arome-prevision-immediate/">API
-                                Modèle
-                                AROME Prévision Immédiate</a></li>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-modele-arpege/">API
-                                Modèle ARPEGE</a></li>
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-surcote-oceanique-hycom2d-maro-resolution-0-04deg/">Paquets
+                                de modèle de surcote océanique - HYCOM2D-MARO - Résolution 0,04°</a></li>
                         <li><a
-                                href="https://www.data.gouv.fr/fr/dataservices/api-champs-statistiques-de-la-prevision-densemble-arpege/">API
-                                Champs statistiques de la prévision d'ensemble ARPEGE</a></li>
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-surcote-oceanique-hycom2d-marp-resolution-0-04deg/">Paquets
+                                de modèle de surcote océanique - HYCOM2D-MARP - Résolution 0,04°</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-surcote-oceanique-hycom2d-waro-resolution-0-04deg/">Paquets
+                                de modèle de surcote océanique - HYCOM2D-WARO - Résolution 0,04°</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-surcote-oceanique-hycom2d-warp-resolution-0-04deg/">Paquets
+                                de modèle de surcote océanique - HYCOM2D-WARP - Résolution 0,04°</a></li>
+                        <li>Paquets de modèle de vagues - MFWAM - Résolution <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-025deg/">0.025°</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-1deg/">0.1°</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-5deg/">0.5°</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-maro-resolution-0-1deg/">Paquets
+                                de modèle de vagues haute résolution - WW3-MARO - Résolution 0.1°</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-marp-resolution-0-1deg/">Paquets
+                                de modèle de vagues haute résolution - WW3-MARP - Résolution 0.1°</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-warp-resolution-0-1deg/">Paquets
+                                de modèle de vagues haute résolution - WW3-WARP - Résolution 0.1°</a></li>
                     </ul>
                     <h4 id="donnees-radar">Données radar</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-donnees-radar/">API
-                                Données Radar</a></li>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-package-radar/">API
-                                Package Radar</a></li>
+                        <li>Package radar, <a href="https://www.data.gouv.fr/fr/datasets/package-radar/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-donnees-radar/">par API</a></li>
                     </ul>
                     <h4 id="alertes-meteorologiques">Alertes météorologiques</h4>
                     <ul>
@@ -834,27 +1021,24 @@ content_type: html
                         :
                     </p>
                     <ul>
-                        <li>Visualiser les données (<a
-                                href="https://www.data.gouv.fr/fr/reuses/climaviz/">ClimaViz</a> ; <a
+                        <li>Visualiser les données (<a href="https://www.data.gouv.fr/fr/reuses/climaviz/">ClimaViz</a>
+                            ; <a
                                 href="https://www.data.gouv.fr/fr/reuses/meteoviz-visualisation-des-donnees-dobservation-a-partir-des-api-de-meteo-france/">MétéoViz</a>)
                         </li>
                         <li>Faciliter l'exploitation et la manipulation des données (<a
                                 href="https://www.data.gouv.fr/fr/reuses/projet-la-dalle/">La Dalle</a> ; <a
                                 href="https://www.data.gouv.fr/fr/reuses/climate-accessibility/">Climate
                                 Accessibility</a>)</li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/reuses/risque-dincendie-meteo-environnement/">Créer
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/risque-dincendie-meteo-environnement/">Créer
                                 un score de risque de feu de forêt</a> ;</li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-climatiques/">Observer
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-climatiques/">Observer
                                 l'évolution de phénomènes météorologiques et comparer des indicateurs dans
                                 le temps</a> ;</li>
                         <li><a
                                 href="https://www.data.gouv.fr/fr/reuses/historique-meteorologique-sur-une-parcelle-une-exploitation-ou-durant-une-intervention-agricole/">Connaître
                                 les conditions météorologiques lors d'une intervention agricole ou pendant
                                 la durée d'une culture</a> ;</li>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/reuses/les-hivers-blancs-ont-ils-fait-leur-temps/">Etudier
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/les-hivers-blancs-ont-ils-fait-leur-temps/">Etudier
                                 le phénomène de baisse de l'épaisseur du manteau neigeux en haute
                                 montagne</a> ;</li>
                         <li><a
@@ -872,139 +1056,199 @@ content_type: html
                     <h3 id="donnees4">Données</h3>
                     <h4 id="population">Population</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/population/">Population</a>
-                        </li>
+                        <li>Estimations de population, <a
+                                href="https://www.data.gouv.fr/fr/datasets/estimations-de-population/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="fecondite">Fécondité</h4>
                     <ul>
-                        <li><a
-                                href="https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_FECONDITE">Fécondité</a>
-                        </li>
+                        <li>Fécondité, <a href="https://www.data.gouv.fr/fr/datasets/fecondite/">en téléchargement</a>
+                            et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par API</a></li>
                     </ul>
                     <h4 id="mortalite">Mortalité</h4>
                     <ul>
-                        <li><a
-                                href="https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_MORTALITE">Mortalité</a>
-                        </li>
+                        <li>Mortalité, <a href="https://www.data.gouv.fr/fr/datasets/mortalite/">en téléchargement</a>
+                            et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par API</a></li>
                     </ul>
                     <h4 id="inegalites">Inégalités</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/revenus-et-pauvrete-des-menages-aux-niveaux-national-et-local-revenus-localises-sociaux-et-fiscaux/">Revenus
-                                et pauvreté des ménages aux niveaux national et local - Revenus localisés
-                                sociaux et fiscaux</a>
-                        </li>
+                        <li>Revenus et pauvreté des ménages aux niveaux national et local - Revenus localisés sociaux et
+                            fiscaux, <a
+                                href="https://www.data.gouv.fr/fr/datasets/revenus-et-pauvrete-des-menages-aux-niveaux-national-et-local-revenus-localises-sociaux-et-fiscaux/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
                     </ul>
                     <h4 id="pauvrete">Pauvreté</h4>
                     <ul>
-                        <li><a href="https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_SRCV_PMS">Privations
-                                matérielles et sociales</a>
-                        </li>
+                        <li>Privations matérielles et sociales, <a
+                                href="https://www.data.gouv.fr/fr/datasets/privations-materielles-et-sociales/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="emploi">Emploi</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/">Marché du
-                                travail</a>
-                        </li>
+                        <li>Marché du travail, <a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
                     </ul>
                     <h4 id="chomage">Chômage</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/">Marché du
-                                travail</a>
-                        </li>
+                        <li>Marché du travail, <a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
                     </ul>
                     <h4 id="main-oeuvre-potentielle">Main d'oeuvre potentielle</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/">Marché du
-                                travail</a>
-                        </li>
+                        <li>Activité, emploi et chômage - séries longues, <a
+                                href="https://www.data.gouv.fr/fr/datasets/activite-emploi-et-chomage-series-longues/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="agregats">Comptes nationaux - Principaux agrégats du PIB</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">Comptabilité
-                                nationale</a></li>
+                        <li>Activité des branches de l'économie, <a
+                                href="https://www.data.gouv.fr/fr/datasets/activite-des-branches-de-leconomie/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
+                        <li>Comptabilité nationale, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
+                        <li>Comptes régionaux annuels, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-regionaux-annuels/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
+                        <li>Produit Intérieur Brut (PIB) et grands agrégats économiques, <a
+                                href="https://www.data.gouv.fr/fr/datasets/produit-interieur-brut-pib-et-grands-agregats-economiques/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="menages">Comptes nationaux - Indicateurs clés sur les ménages</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">Comptabilité
-                                nationale</a></li>
+                        <li>Comptes de patrimoine, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-de-patrimoine/">en téléchargement</a>
+                            et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par API</a></li>
+                        <li>Comptes régionaux annuels, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-regionaux-annuels/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
+                        <li>Tableau économique d'ensemble, <a
+                                href="https://www.data.gouv.fr/fr/datasets/tableau-economique-densemble/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="indicateurs-entreprises">Comptes nationaux - Indicateurs clés sur les entreprises
                     </h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">Comptabilité
-                                nationale</a></li>
+                        <li>Activité des branches de l'économie, <a
+                                href="https://www.data.gouv.fr/fr/datasets/activite-des-branches-de-leconomie/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
+                        <li>Comptes de patrimoine, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-de-patrimoine/">en téléchargement</a>
+                            et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par API</a></li>
                     </ul>
                     <h4 id="dette">Dette brute consolidée</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">Comptabilité
-                                nationale</a></li>
+                        <li>Comptabilité nationale, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
+                        <li>Comptes des administrations publiques, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-des-administrations-publiques/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="depenses-recettes">Dépenses et recettes des administrations publiques</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptabilite-nationale/">Comptabilité
-                                nationale</a></li>
+                        <li>Comptes des administrations publiques, <a
+                                href="https://www.data.gouv.fr/fr/datasets/comptes-des-administrations-publiques/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="production-industrielle">Production industrielle</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/prix-et-indices-de-prix/">Prix
-                                et indices de prix</a></li>
+                        <li>Activité productrice des entreprises, <a
+                                href="https://www.data.gouv.fr/fr/datasets/activite-productrice-des-entreprises/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
                     </ul>
                     <h4 id="volume-ventes">Volume des ventes par activité</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/dataservices/api-donnees-radar/">Activité
-                                productrice des entreprises</a></li>
+                        <li>Indicateur d’activité et de chiffre d’affaires, <a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateur-dactivite-et-de-chiffre-daffaires/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="prix-industrie">Ventilations de l'indice des prix de production de l'industrie par
                         activité</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/prix-et-indices-de-prix/">Prix
-                                et indices de prix</a></li>
+                        <li>Prix et indices de prix, <a
+                                href="https://www.data.gouv.fr/fr/datasets/prix-et-indices-de-prix/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-bdm/">par
+                                API</a></li>
                     </ul>
                     <h4 id="prix-consommation">Indices des prix à la consommation harmonisés</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/prix-et-indices-de-prix/">Prix
-                                et indices de prix</a></li>
+                        <li>Indice des prix à la consommation harmonisés mensuels, <a
+                                href="https://www.data.gouv.fr/fr/datasets/indice-des-prix-a-la-consommation-harmonises-mensuels/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
+                        <li>Indice des prix à la consommation harmonisés annuels, <a
+                                href="https://www.data.gouv.fr/fr/datasets/indice-des-prix-a-la-consommation-harmonises-annuels/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="flux-touristiques">Flux touristiques en Europe</h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/tourisme-1/">Tourisme</a></li>
+                        <li>Fréquentations touristiques, <a
+                                href="https://www.data.gouv.fr/fr/datasets/frequentations-touristiques/">en
+                                téléchargement</a> et <a href="https://www.data.gouv.fr/fr/dataservices/api-melodi/">par
+                                API</a></li>
                     </ul>
                     <h4 id="comptes-environnement">Comptes et statistiques de l'environnement</h4>
                     <ul>
                         <li><a
                                 href="https://www.data.gouv.fr/fr/datasets/gaz-a-effet-de-serre-et-polluants-atmospheriques-au-format-aea-ex-namea/">Gaz
-                                à
-                                effet de serre et polluants atmosphériques au format AEA (ex NAMEA)</a></li>
+                                à effet de serre et polluants atmosphériques au format AEA (ex NAMEA)</a></li>
                     </ul>
                     <h4 id="commerce-international">Statistiques sur le commerce international de biens dans
                         l'UE : exportations et importations ventilées à la fois par partenaire, par produit et
                         par flux</h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/statistiques-nationales-du-commerce-exterieur/">Statistiques
-                                nationales du commerce extérieur</a></li>
+                        <li>Statistiques nationales du commerce extérieur, <a
+                                href="https://www.data.gouv.fr/fr/datasets/statistiques-nationales-du-commerce-exterieur/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/explore-api-v2-48/">par API</a></li>
                     </ul>
                     <h3 id="reutilisations4">Réutilisations de données</h3>
-                    <p><i>Réutilisations à venir</i></p>
+                    <p>A partir de ces données statistiques, des solutions ont été
+                        conçues pour permettre de :
+                    </p>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/utiliser-lopen-data-pour-apprehender-la-precarite-economique-spallian/">Appréhender
+                                la précarité économique</a> ;</li>
+                        <li><a href="https://www.data.gouv.fr/fr/reuses/outil-de-diagnostic-mobilite-des-territoires/">Comprendre
+                                les enjeux de mobilité de son territoire.</a></li>
+                    </ul>
+                    <p>D'autres usages ont été développés à partir de ces données. Il est possible d'en
+                        découvrir davantage <a href="https://www.data.gouv.fr/fr/reuses/"><b>en parcourant les
+                                réutilisations référencées sur data.gouv.fr</b></a>.</p>
 
                     <h2 id="donnees-entreprises">Données sur les entreprises et propriétés d'entreprises</h2>
                     <h3 id="donnees5">Données</h3>
                     <h4 id="informations-entreprises">Informations de base sur l'entreprise : Attributs clés
                     </h4>
                     <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/">Base
-                                Sirene des entreprises et de leurs établissements (SIREN, SIRET)</a>
-                        </li>
+                        <li>Base Sirene des entreprises et de leurs établissements (SIREN, SIRET), <a
+                                href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/">en
+                                téléchargement</a> et <a
+                                href="https://www.data.gouv.fr/fr/dataservices/api-sirene-open-data/">par API</a></li>
                     </ul>
                     <h4 id="documents-comptes-entreprises">Documents et comptes de l'entreprise</h4>
-                    <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/documents-et-comptes-des-entreprises/">Documents
-                                et comptes des entreprises</a>
-                        </li>
-                    </ul>
+                    <p>A venir.</p>
                     <h3 id="reutilisations5">Réutilisations de données</h3>
                     <p>A partir de ces données sur les entreprises, des solutions ont été conçues pour permettre
                         de :
@@ -1036,22 +1280,24 @@ content_type: html
                     <h4 id="reseaux-de-transport">Réseaux de transport
                     </h4>
                     <ul>
-                        <li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/">BD TOPO</a>
-                        </li>
-                        <li><a href="Référentiel à grande échelle (RGE)">Référentiel à grande échelle
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/">Référentiel
+                                à grande échelle
                                 (RGE)</a>
                         </li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/balisage-maritime-aides-a-la-navigation/">Balisage
+                                maritime (aides à la navigation)</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/dispositifs-de-separation-du-trafic-1/">Dispositifs
+                                de séparation du trafic</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/informations-portuaires-1/">Informations
+                                portuaires</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/reglementation-navigation-1/">Réglementation -
+                                Navigation</a></li>
                     </ul>
                     <h4 id="voies-navigables">Voies navigables intérieures
                     </h4>
-                    <ul>
-                        <li><a
-                                href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/">Référentiel
-                                à grande échelle (RGE)</a>
-                        </li>
-                    </ul>
+                    <p>A venir.</p>
                     <h3 id="reutilisations6">Réutilisations de données</h3>
-                    <p><i>Réutlisations à venir</i></p>
+                    <p><i>Réutlisations à venir.</i></p>
                 </div>
             </div>
         </div>
