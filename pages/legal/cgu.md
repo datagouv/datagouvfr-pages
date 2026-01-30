@@ -22,7 +22,7 @@ L’inscription sur la Plateforme est gratuite et entraîne l’application de c
 
 “**Jeux de données**” désigne tout ensemble cohérent notamment de ressources ou informations (fichiers de données, liens), de métadonnées (date de publication, mots-clefs) sur un thème donné.
 
-"**“API”**" désigne toute interface logicielle qui permet à un programmeur d’accéder aux fonctions d’une application et de développer de nouvelles applications utilisant ces fonctions.
+“**API**” désigne toute interface logicielle qui permet à un programmeur d’accéder aux fonctions d’une application et de développer de nouvelles applications utilisant ces fonctions.
 
 “**Réutilisation**” désigne toute utilisation par tout Utilisateur des données publiées à des fins autres que celles pour lesquelles elles ont été produites ou reçues.
 
@@ -62,7 +62,7 @@ Le Contributeur peut, à la différence de l’Utilisateur notamment :
 - Créer ou rejoindre une Organisation.
 
 Les Jeux de données et API publiés sur la Plateforme doivent être gratuits et présenter un intérêt public.
-Les Jeux de données et API payants ne peuvent pas être publiés sur la Plateforme au sein du catalogue. Toutefois, elles peuvent être référencées dans l’onglet relatif aux Réutilisations dans le respect des présentes.
+Les Jeux de données et API payants ne peuvent pas être publiés sur la Plateforme au sein du catalogue. Toutefois, elles peuvent être référencées dans l’onglet relatif aux Réutilisations dans le respect des présentes modalités.
 
 ### 4.2.4 L’Organisation
 
@@ -84,7 +84,7 @@ L’Éditeur s’engage à fournir les moyens nécessaires et raisonnables pour 
 
 La Plateforme n’a pas vocation à diffuser notamment des contenus publicitaires, de promotion d’intérêts privés, contraires à l’ordre public, illicites, de spam et toute contribution contrevenant au cadre juridique en vigueur. L’Éditeur se réserve le droit sans préavis, de supprimer ou de rendre impossible l’accès à des contenus publiés sur la Plateforme n’ayant pas de lien avec son Objet.
 
-L’Éditeur ne réalise pas de contrôle “a priori” sur les publications. Dès que l’Éditeur a connaissance de contenus contraires aux présentes modalités d’utilisation , il agit rapidement pour les supprimer ou les rendre inaccessibles. Notamment, l’Éditeur se réserve le droit de supprimer tout contenu et renvoi payant ou ne présentant pas d’intérêt public publié sur la Plateforme.
+L’Éditeur ne réalise pas de contrôle “a priori” sur les publications. Dès que l’Éditeur a connaissance de contenus contraires aux présentes modalités d’utilisation, il agit rapidement pour les supprimer ou les rendre inaccessibles. Notamment, l’Éditeur se réserve le droit de supprimer tout contenu et renvoi payant ou ne présentant pas d’intérêt public publié sur la Plateforme.
 
 L’Éditeur n’est pas tenu de donner suite aux demandes abusives et se réserve le droit de rendre inaccessible ou de supprimer le compte d’un Contributeur ou d’une Organisation à l’origine de ces demandes.
 
@@ -115,3 +115,4 @@ Le Contributeur s’engage à ne pas publier dans les espaces de discussion ou �
 ### 6. Mise à jour des modalités d’utilisation
 
 Les termes des présentes modalités d’utilisation peuvent être amendés à tout moment, en fonction des modifications apportées à la Plateforme, de l’évolution de la législation ou pour tout autre motif jugé nécessaire. Les modalités d’utilisation s’imposent au public.
+
