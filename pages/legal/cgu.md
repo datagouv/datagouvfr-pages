@@ -22,7 +22,7 @@ L’inscription sur la Plateforme est gratuite et entraîne l’application de c
 
 “**Jeux de données**” désigne tout ensemble cohérent notamment de ressources ou informations (fichiers de données, liens), de métadonnées (date de publication, mots-clefs) sur un thème donné.
 
-"**“API”**" désigne toute interface logicielle qui permet à un programmeur d’accéder aux fonctions d’une application et de développer de nouvelles applications utilisant ces fonctions qui est publiée sur la Plateforme.
+"**“API”**" désigne toute interface logicielle qui permet à un programmeur d’accéder aux fonctions d’une application et de développer de nouvelles applications utilisant ces fonctions.
 
 “**Réutilisation**” désigne toute utilisation par tout Utilisateur des données publiées à des fins autres que celles pour lesquelles elles ont été produites ou reçues.
 
@@ -84,7 +84,7 @@ L’Éditeur s’engage à fournir les moyens nécessaires et raisonnables pour 
 
 La Plateforme n’a pas vocation à diffuser notamment des contenus publicitaires, de promotion d’intérêts privés, contraires à l’ordre public, illicites, de spam et toute contribution contrevenant au cadre juridique en vigueur. L’Éditeur se réserve le droit sans préavis, de supprimer ou de rendre impossible l’accès à des contenus publiés sur la Plateforme n’ayant pas de lien avec son Objet.
 
-L’Éditeur ne réalise pas de contrôle “a priori” sur les publications. Dès que l’Éditeur a connaissance de contenus contraires aux présentes modalités d’utilisation , il agit rapidement pour les supprimer ou les rendre inaccessibles. Notamment, l’Éditeur se réserve le droit de supprimer tout contenu et renvoie payant ou ne présentant pas d’intérêt public publiée sur la Plateforme.
+L’Éditeur ne réalise pas de contrôle “a priori” sur les publications. Dès que l’Éditeur a connaissance de contenus contraires aux présentes modalités d’utilisation , il agit rapidement pour les supprimer ou les rendre inaccessibles. Notamment, l’Éditeur se réserve le droit de supprimer tout contenu et renvoi payant ou ne présentant pas d’intérêt public publié sur la Plateforme.
 
 L’Éditeur n’est pas tenu de donner suite aux demandes abusives et se réserve le droit de rendre inaccessible ou de supprimer le compte d’un Contributeur ou d’une Organisation à l’origine de ces demandes.
 
@@ -108,7 +108,7 @@ Le Contributeur s’assure de garder son mot de passe secret. Toute divulgation 
 
 Il est rappelé que toute personne qui procède à une fausse déclaration pour elle-même ou pour autrui s’expose, notamment, aux sanctions prévues à l’[article 441-1 du Code pénal](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418753), prévoyant des peines pouvant aller jusqu’à trois ans d’emprisonnement et 45 000 euros d’amende.
 
-Le Contributeur s’assure, en amont de la publication, que cette dernière respecte le cadre juridique en vigueur notamment le RGPD, la loi relative à l’informatique, aux fichiers et aux libertés , le code de la propriété intellectuelle et le code des relations entre le public et l’administration.
+Le Contributeur s’assure, en amont de la publication, que cette dernière respecte le cadre juridique en vigueur notamment le RGPD, la loi relative à l’informatique, aux fichiers et aux libertés, le code de la propriété intellectuelle et le code des relations entre le public et l’administration.
 
 Le Contributeur s’engage à ne pas publier dans les espaces de discussion ou à quelque endroit que ce soit de messages racistes, sexistes, injurieux, insultants ou contraires à l’ordre public. Chaque commentaire publié emporte cession de ses droits de propriété intellectuelle de façon non exclusive, à titre gracieux, pour le monde entier et pour toute la durée de ces droits.
 
