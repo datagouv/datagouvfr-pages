@@ -9,13 +9,13 @@ Découvrez ici quelques exemples d'usages des données ouvertes qui illustrent l
 
 ## L'open data nous aide à nous déplacer
 
-Les [données ouvertes relatives aux transports](https://transport.data.gouv.fr/) comme les [horaires des transports en commun](https://transport.data.gouv.fr/datasets?type=public-transit) permettent aux collectivités comme  le [département de l’Isère avec Citiway](https://blog.transport.data.gouv.fr/billets/city-way/) et aux calculateurs d'itinéraires comme Google Maps, City Mapper ou  [MyBus](https://www.data.gouv.fr/fr/reuses/mybus/) de nous accompagner dans nos déplacements, même en dehors des grandes métropoles.
+Les [données ouvertes relatives aux transports](https://transport.data.gouv.fr/) comme les [horaires des transports en commun](https://transport.data.gouv.fr/datasets?type=public-transit) permettent aux collectivités comme  le [département de l’Isère avec Citiway](https://blog.transport.data.gouv.fr/billets/city-way/) et aux calculateurs d'itinéraires comme Google Maps, City Mapper ou  [MyBus](https://www.data.gouv.fr/reuses/mybus/) de nous accompagner dans nos déplacements, même en dehors des grandes métropoles.
 
 ![reuse_transport](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/transport.png?raw=true)
 
 ## L'open data est un outil de transparence démocratique
 
-De nombreuses données sur la vie publique et politique sont mises à disposition par l'administration. Citons par exemple l'activité parlementaire, les [données essentielles des marchés publics](https://www.data.gouv.fr/fr/datasets/fichiers-consolides-des-donnees-essentielles-de-la-commande-publique/),  [les subventions aux associations](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/) ou encore les [balances comptables des communes](https://www.data.gouv.fr/fr/datasets/balances-comptables-des-communes/). 
+De nombreuses données sur la vie publique et politique sont mises à disposition par l'administration. Citons par exemple l'activité parlementaire, les [données essentielles des marchés publics](https://www.data.gouv.fr/datasets/fichiers-consolides-des-donnees-essentielles-de-la-commande-publique/),  [les subventions aux associations](https://www.data.gouv.fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/) ou encore les [balances comptables des communes](https://www.data.gouv.fr/datasets/balances-comptables-des-communes/). 
 
 La société civile s'empare de ces données pour les rendre plus intelligibles et faciliter l'accès au fonctionnement des institutions.  C'est le cas, par exemple, du collectif [Regards Citoyens](https://www.regardscitoyens.org/qui-sommes-nous/)  grâce à [nosdéputés.fr](https://www.nosdeputes.fr/). 
 
@@ -27,19 +27,19 @@ Les données publiques sont un [outil essentiel au service de la gestion de cris
 
 La mise à disposition et la visualisation de très nombreuses [données relatives au coronavirus](https://www.data.gouv.fr/pages/donnees-coronavirus) permettent d’assurer la juste information du public et de faire acte de transparence sur les informations fondant les décisions du gouvernement.
 
-Ces données sont exploitées par l'[administration](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees) mais également [largement réutilisée](https://www.data.gouv.fr/fr/posts/retour-sur-les-activites-de-data-gouv-fr-en-2020/) par la société civile comme en atteste le succès de [CovidTracker](https://covidtracker.fr/). 
+Ces données sont exploitées par l'[administration](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees) mais également [largement réutilisée](https://www.data.gouv.fr/posts/retour-sur-les-activites-de-data-gouv-fr-en-2020/) par la société civile comme en atteste le succès de [CovidTracker](https://covidtracker.fr/). 
 
 ![tdb_covid](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/tableau%20de%20bord%20covid.png?raw=true)
 
 ## L'open data permet de connaître le prix des biens immobiliers
 
-Les données de vente des biens immobiliers permettent d'avoir une indication sur les prix en vigueur. Elles sont rendues accessibles au grand public grâce à l'[explorateur DVF développé par Etalab](https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/) ou par des acteurs privés tels que [Meilleurs Agents](https://www.meilleursagents.com/prix-immobilier/dvf/) qui enrichit notamment ces données d'estimations de prix actualisées.
+Les données de vente des biens immobiliers permettent d'avoir une indication sur les prix en vigueur. Elles sont rendues accessibles au grand public grâce à l'[explorateur DVF développé par Etalab](https://www.data.gouv.fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/) ou par des acteurs privés tels que [Meilleurs Agents](https://www.meilleursagents.com/prix-immobilier/dvf/) qui enrichit notamment ces données d'estimations de prix actualisées.
 
 ![meilleurs_agents](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/meilleurs%20agents.png?raw=true)
 
 ## L'open data facilite les recherches généalogiques
 
-[L'INSEE](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/) met à disposition de nombreuses données démographiques, dont un [fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/) depuis 1970. A partir de ces données, le site [MatchID](https://www.data.gouv.fr/fr/reuses/moteur-de-recherche-des-personnes-decedees-matchid/) permet, entre autre, d'effectuer une recherche parmi plus de 25 millions de décès depuis 1970. 
+[L'INSEE](https://www.data.gouv.fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/) met à disposition de nombreuses données démographiques, dont un [fichier des personnes décédées](https://www.data.gouv.fr/datasets/fichier-des-personnes-decedees/) depuis 1970. A partir de ces données, le site [MatchID](https://www.data.gouv.fr/reuses/moteur-de-recherche-des-personnes-decedees-matchid/) permet, entre autre, d'effectuer une recherche parmi plus de 25 millions de décès depuis 1970. 
 
 Les recherches généalogiques sont, bien sûr, un des nombreux usages de ces données essentielles.
 
@@ -47,9 +47,9 @@ Les recherches généalogiques sont, bien sûr, un des nombreux usages de ces do
 
 ## L'open data nous aide à mieux manger
 
-Les données environnementales, notamment celles produites par [l'ADEME](https://www.data.gouv.fr/fr/organizations/ademe/), ou les données sur l['alimentation](https://www.data.gouv.fr/fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/) produites par l'association [OpenFoodFacts](https://fr.openfoodfacts.org/) constituent une ressource essentielle pour nous aider à choisir des produits bons pour notre santé et pour l'environnement.
+Les données environnementales, notamment celles produites par [l'ADEME](https://www.data.gouv.fr/organizations/ademe/), ou les données sur l['alimentation](https://www.data.gouv.fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/) produites par l'association [OpenFoodFacts](https://fr.openfoodfacts.org/) constituent une ressource essentielle pour nous aider à choisir des produits bons pour notre santé et pour l'environnement.
 
-La [startup d'Etat](https://beta.gouv.fr/approche/) [Datagir](https://datagir.ademe.fr/) permet par exemple de [trouver les fruits de saison](https://www.data.gouv.fr/fr/reuses/mes-fruits-legumes-de-saison-votre-moteur-de-recherche-pour-retrouver-les-fruits-legumes-du-mois/) ou de calculer l'[impact environnemental de son alimentation](https://www.data.gouv.fr/fr/reuses/explorer-la-base-agribalyse-pour-decouvrir-limpact-environnemental-de-lalimentation/) . Ces données ont aussi permis à l'association [OpenFoodFacts](https://www.data.gouv.fr/fr/organizations/open-food-facts/) de calculer un [Eco-Score](https://www.data.gouv.fr/fr/reuses/eco-score-limpact-environnemental-des-produits-alimentaires-1/) sur les produits, qui sera visible sur de nombreuses applications telles que [Yuka](https://yuka.io/).
+La [startup d'Etat](https://beta.gouv.fr/approche/) [Datagir](https://datagir.ademe.fr/) permet par exemple de [trouver les fruits de saison](https://www.data.gouv.fr/reuses/mes-fruits-legumes-de-saison-votre-moteur-de-recherche-pour-retrouver-les-fruits-legumes-du-mois/) ou de calculer l'[impact environnemental de son alimentation](https://www.data.gouv.fr/reuses/explorer-la-base-agribalyse-pour-decouvrir-limpact-environnemental-de-lalimentation/) . Ces données ont aussi permis à l'association [OpenFoodFacts](https://www.data.gouv.fr/organizations/open-food-facts/) de calculer un [Eco-Score](https://www.data.gouv.fr/reuses/eco-score-limpact-environnemental-des-produits-alimentaires-1/) sur les produits, qui sera visible sur de nombreuses applications telles que [Yuka](https://yuka.io/).
 
 *Quelques exemples des réutilisateurs des données de l'ADEME :* 
 
@@ -59,6 +59,6 @@ La [startup d'Etat](https://beta.gouv.fr/approche/) [Datagir](https://datagir.ad
 
 Ces exemples ne représentent qu'une infime partie de ce qu'il est possible de faire avec les données ouvertes. 
 
-Pour découvrir d'autres exemples vous pouvez consulter les [réutilisations publiées sur data.gouv.fr](https://www.data.gouv.fr/fr/reuses/) ainsi que suivre les [actualités de data.gouv.fr](https://www.data.gouv.fr/fr/posts/).   
+Pour découvrir d'autres exemples vous pouvez consulter les [réutilisations publiées sur data.gouv.fr](https://www.data.gouv.fr/reuses/) ainsi que suivre les [actualités de data.gouv.fr](https://www.data.gouv.fr/posts/).   
 
 Nous vous invitons par ailleurs à [référencer votre usage des données ouvertes sur data.gouv.fr](https://guides.etalab.gouv.fr/reutilisation/#pourquoi-referencer-une-reutilisation). Mieux connaître ces usages nous aide à valoriser et développer l'open data !

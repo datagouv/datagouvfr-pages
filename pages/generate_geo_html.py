@@ -101,7 +101,7 @@ basic_description = """<p>
         </p>
         <p>
           Un certains nombre de ces données font office de référentiel qui servent de pivot avec d'autres jeux de données. Elles font parties
-          <a href="https://www.data.gouv.fr/fr/pages/spd/reference/">
+          <a href="https://www.data.gouv.fr/pages/spd/reference/">
             du SPD (Service Public de la Donnée)
           </a>
           . Voir aussi

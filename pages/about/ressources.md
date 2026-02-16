@@ -4,10 +4,10 @@ title: En savoir plus sur data.gouv.fr
 
 # En savoir plus sur [data.gouv.fr](http://data.gouv.fr/)
 
-- **[Qu’est-ce que data.gouv.fr ?](https://www.data.gouv.fr/fr/pages/about/a-propos/)**
+- **[Qu’est-ce que data.gouv.fr ?](https://www.data.gouv.fr/pages/about/a-propos/)**
   Découvrez à qui s’adresse [data.gouv.fr](http://data.gouv.fr/) et qui est derrière la plateforme.
 
-- **[À quoi sert l’open data ?](https://www.data.gouv.fr/fr/pages/about/opendata/)**
+- **[À quoi sert l’open data ?](https://www.data.gouv.fr/pages/about/opendata/)**
   En savoir plus sur les bénéfices de l’open data à travers des exemples emblématiques.
 
 # **Publier des données**
