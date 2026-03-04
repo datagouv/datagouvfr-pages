@@ -31,7 +31,7 @@ France
 
 **Accessibilité**
 
-La plateforme est [partiellement conforme](https://www.data.gouv.fr/fr/pages/legal/accessibility/), nous tâchons de la rendre accessible à toutes et à tous.
+La plateforme est [partiellement conforme](https://www.data.gouv.fr/pages/legal/accessibility/), nous tâchons de la rendre accessible à toutes et à tous.
 
 **En savoir plus**
 

@@ -11,7 +11,7 @@ author: abulte
 
 **Introducing udata 4**, codename: _cockroach_ — you'll see why in a bit!
 
-This a follow up on the latest [major release (udata 3) roadmap post](https://www.data.gouv.fr/fr/pages/udata/3/the-road-to-udata-3).
+This a follow up on the latest [major release (udata 3) roadmap post](https://www.data.gouv.fr/pages/udata/3/the-road-to-udata-3).
 
 Our goal here is to highlight the major coming with udata 4 and what we think can be built with it.
 
@@ -79,7 +79,7 @@ As stated, we think of the new event-driven architecture as an enabler for futur
 
 ## The community
 
-The last time we wrote on [udata, regarding the v3 release](https://www.data.gouv.fr/fr/pages/udata/3/the-road-to-udata-3), we highlighted the fact that Etalab was pretty much alone in maintaining udata.
+The last time we wrote on [udata, regarding the v3 release](https://www.data.gouv.fr/pages/udata/3/the-road-to-udata-3), we highlighted the fact that Etalab was pretty much alone in maintaining udata.
 
 > An overwhelming majority of commits on udata have been made by members of Etalab, the French government agency responsible for data.gouv.fr.
 >
@@ -89,7 +89,7 @@ We also had lost touch with the main platforms reusing udata for their needs, le
 
 Since then, we are happy to have had renewed contacts with some udata users, mainly the governments of Serbia and Luxembourg. We felt an increasing need for help and documentation, mainly for dealing with a migration to the latest version of udata.
 
-We heard this and we will try to produce more documentation and give more visibility on our technical choices, hence this post. We also [revamped our main documentation](https://udata.readthedocs.io/en/stable/) quite a bit. A much needed [focus on the new metrics (Matomo) collection system](https://www.data.gouv.fr/fr/pages/udata/3/udata-3-usage-metrics-explained) has been written too.
+We heard this and we will try to produce more documentation and give more visibility on our technical choices, hence this post. We also [revamped our main documentation](https://udata.readthedocs.io/en/stable/) quite a bit. A much needed [focus on the new metrics (Matomo) collection system](https://www.data.gouv.fr/pages/udata/3/udata-3-usage-metrics-explained) has been written too.
 
  If you're interested in udata 4, you can join the community to discuss architectural changes or get started with udata 4 at https://github.com/opendatateam/udata/discussions/2724.
 

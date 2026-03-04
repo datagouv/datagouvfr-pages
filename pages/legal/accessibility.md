@@ -79,7 +79,7 @@ Après mise à jour, le taux de conformité à cette date est de :
 
 Cette déclaration a été établie le 01 juillet 2021. Elle a été dernièrement mise à jour le 19 juin 2023. 
 
-### Technologies utilisées pour la réalisation de https://www.data.gouv.fr/fr/
+### Technologies utilisées pour la réalisation de https://www.data.gouv.fr/
 
 * HTML5
 * CSS
@@ -100,17 +100,17 @@ Les vérifications de restitution de contenus ont été réalisées sur la base 
 * PDF accessibility checker
 
 ### Pages du site ayant fait l’objet de la vérification de conformité
-1. Accueil : https://www.data.gouv.fr/fr/
-2. Réutilisations : https://www.data.gouv.fr/fr/reuses/
-3. Détails réutilisations & Zone commentaire : https://www.data.gouv.fr/fr/reuses/evolution-des-immatriculations-et-radiations-des-societes/ 
-https://www.data.gouv.fr/fr/datasets/jeu-de-donnees-pour-audit-daccessibilite/
-4. Données : https://www.data.gouv.fr/fr/datasets/
+1. Accueil : https://www.data.gouv.fr/
+2. Réutilisations : https://www.data.gouv.fr/reuses/
+3. Détails réutilisations & Zone commentaire : https://www.data.gouv.fr/reuses/evolution-des-immatriculations-et-radiations-des-societes/ 
+https://www.data.gouv.fr/datasets/jeu-de-donnees-pour-audit-daccessibilite/
+4. Données : https://www.data.gouv.fr/datasets/
 5. Détails données : https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
-6. Actualités : https://www.data.gouv.fr/fr/posts/
-7. Organisation : https://www.data.gouv.fr/fr/organizations/
-8. Détails organisation : https://www.data.gouv.fr/fr/organizations/etalab/
-9. Détails actualités : https://www.data.gouv.fr/fr/posts/suivi-des-sorties-decembre-2020/
-10. Page statique : https://www.data.gouv.fr/fr/pages/donnees-des-elections 
+6. Actualités : https://www.data.gouv.fr/posts/
+7. Organisation : https://www.data.gouv.fr/organizations/
+8. Détails organisation : https://www.data.gouv.fr/organizations/etalab/
+9. Détails actualités : https://www.data.gouv.fr/posts/suivi-des-sorties-decembre-2020/
+10. Page statique : https://www.data.gouv.fr/pages/donnees-des-elections 
        
 
 ## Retour d'information et contact
