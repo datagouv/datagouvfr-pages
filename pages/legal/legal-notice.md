@@ -15,9 +15,9 @@ La plateforme « Data gouv» est éditée par la Direction interministérielle
 
 France
 
-**Directrice de la publication**
+**Directeur de la publication**
 
-La directrice de la publication est Madame Stéphanie SCHAER, Directrice de la DINUM.
+Le directeur de la publication est Monsieur Walter Arnaud, directeur de la DINUM.
 
 **Hébergement de la plateforme**
 
